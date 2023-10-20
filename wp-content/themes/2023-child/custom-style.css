@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+/* Font utilisée */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Syne;
+}
+
+/* Couleurs utilisées */
+.vert {
+    color: #3B8E46;
+}
+
+.abricot {
+    color: #DC9F96;
+}
+
+.papaye {
+    color: #ECE2DA;
+}
+
+.pierre {
+    color: #E3D9D0;
+}
+
+.corail {
+    color: #D2776A;
+}
+
+.abricot-clair {
+    color: #E0B9B4;
+}
+
+.blanc {
+    color: #fff;
+}
+
+/* Formatage taille texte */
+h1 {
+    font-size: 38px;
+    font-style: normal;
+    line-height: 2em;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: normal;
+}
+
+p {
+    font-size: 20px;
+    font-style: normal;
+}
+
+/* Formatage particulier texte */
+.pmoins {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.moyen {
+    font-weight: 700;
+}
+
+.gras {
+    font-weight: 800;
+}
+
+.majuscule {
+    text-transform: uppercase;
+}
+
+.bouton {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 50px;
+    border: none;
+}
+
+/* Fonds particuliers */
+.fond-arrondi-rebord {
+    background-color: #ECE2DA;
+    ;
+    border-radius: 0% 0% 50% 50% / 93% 93% 7% 7%;
+    border-bottom: #E3D9D0 solid 5px;
+    padding-top: 105px;
+}
+
+.fond-arrondi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ECE2DA;
+    border-radius: 0% 0% 50% 50% / 96% 96% 4% 4%;
+}
+
+.fond-arrondi-rencontre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0% 0% 50% 50% / 80% 80% 20% 20%;
+    background: #ECE2DA url("http://localhost:8888/Test%20site%20wordpress/wp-content/uploads/2023/10/Fleur.png") no-repeat scroll 15% 35%;
+    background-size: 150px 150px;
+}
+
+.fond-equipe {
+    background: url("http://localhost:8888/Test%20site%20wordpress/wp-content/uploads/2023/10/Branche.png") no-repeat scroll 95% 105%;
+    background-size: 180px 180px;
+}
+
+.fond-contact {
+    background: #ECE2DA url("http://localhost:8888/Test%20site%20wordpress/wp-content/uploads/2023/10/Houx.png") no-repeat scroll 35% 70%;
+    ;
+}
+
+/* Présentation des photos Accueil */
+.ma-grille {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+}
+
+/* Formatage du formulaire de contact */
+.champ-simple {
+    width: 383px;
+    height: 71px;
+    border: none;
+}
+
+.champ-multi {
+    width: 383px;
+    height: 237px;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.bouton-align {
+    margin-block: auto;
+}

@@ -1,0 +1,3209 @@
+# Translation of Plugins - Backup Migration - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Backup Migration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-17 19:23:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Backup Migration - Stable (latest release)\n"
+
+#: includes/extracter/extract.php:1141
+msgid "Removing old plugins and themes moved before restoration."
+msgstr "Suppression des anciens extensions et thèmes déplacés avant la restauration."
+
+#: includes/extracter/extract.php:1089
+msgid "Restoring moved themes and plugins."
+msgstr "Restauration des thèmes et extensions déplacés."
+
+#: includes/extracter/extract.php:1077
+msgid "Themes and plugins moved to safe directory."
+msgstr "Thèmes et extensions déplacés vers un répertoire sécurisé."
+
+#: includes/extracter/extract.php:1039
+msgid "Moving current themes and plugins."
+msgstr "Déplacement des thèmes et extensions actuels."
+
+#: includes/dashboard/chapter/other_config.php:376
+msgid "Database import/export settings"
+msgstr "Réglages d‘importation/exportation de la base de données"
+
+#: includes/dashboard/chapter/other_config.php:367
+msgid "Remove existing plugins and themes before migration."
+msgstr "Retirer les extensions et les thèmes existants avant la migration."
+
+#: includes/zipper/src/zip.php:121
+msgid "Making single-file database backup (using deprecated engine, due to used settings)"
+msgstr "Sauvegarde d’un fichier unique de la base de données (à l’aide d’un moteur obsolète, en raison des réglages utilisés)"
+
+#: includes/dashboard/chapter/other_config.php:449
+msgid "Deprecated: Force the plugin to backup all tables into one file."
+msgstr "Obsolète : forcer l‘extension à sauvegarder toutes les tables dans un seul fichier."
+
+#: includes/dashboard/chapter/other_config.php:20
+msgid "Advanced details: It will remove all plugins (excluding backup migration) and themes before performing migration. These files during migration will be kept in directory wp-content/backup-migration/clean-ups. If you want to keep them after migration you can use wp-config.php constant BMI_KEEP_CLEANUPS set to TRUE."
+msgstr "Détails avancés : cela retirera toutes les extensions (à l‘exception de la migration de sauvegarde) et les thèmes avant d‘effectuer la migration. Ces fichiers seront conservés dans le répertoire wp-content/backup-migration/clean-ups pendant la migration. Si vous souhaitez les conserver après la migration, vous pouvez utiliser la constante wp-config.php BMI_KEEP_CLEANUPS définie sur « True »."
+
+#: includes/dashboard/chapter/other_config.php:19
+msgid "It will force to use V1 engine (first export function of this plugin), it is usually much quicker but search & replace may not work well for recursively santisized data - but may be recommended for not complex sites."
+msgstr "Cela obligera à utiliser le moteur V1 (première fonction d‘exportation de cette extension), il est généralement bien plus rapide, cependant la recherche et le remplacement peuvent ne pas fonctionner correctement pour les données récursivement analysées - mais peuvent être recommandés pour les sites peu complexes."
+
+#: includes/extracter/extract.php:1616
+msgid "Splitting process is disabled because v3 restore engine is enabled."
+msgstr "Le processus de fractionnement est désactivé car le moteur de restauration v3 est activé."
+
+#: includes/database/even-better-restore-v3.php:368
+#: includes/database/even-better-restore-v4.php:361
+msgid "This backup was made on the same site, ommiting search & replace."
+msgstr "Cette sauvegarde a été effectuée sur le même site, en omettant la recherche et le remplacement."
+
+#: includes/database/even-better-restore-v3.php:362
+#: includes/database/even-better-restore-v4.php:355
+msgid "Performing Search & Replace"
+msgstr "Exécution de la recherche et du remplacement"
+
+#: includes/database/even-better-restore-v3.php:319
+#: includes/database/even-better-restore-v4.php:312
+msgid "All tables replaced"
+msgstr "Toutes les tables remplacées"
+
+#: includes/database/even-better-restore-v3.php:311
+#: includes/database/even-better-restore-v4.php:304
+msgid "Table %old% renamed to %new%"
+msgstr "Table %old% renommée en %new%"
+
+#: includes/database/even-better-restore-v3.php:300
+#: includes/database/even-better-restore-v4.php:293
+msgid "Performing table replacement"
+msgstr "Effectuer le remplacement de table"
+
+#: includes/database/even-better-restore-v3.php:269
+#: includes/database/even-better-restore-v4.php:262
+msgid "Table %table_name% restoration took %time% seconds"
+msgstr "La restauration de la table %table_name% a pris %time% secondes"
+
+#: includes/database/even-better-restore-v3.php:214
+#: includes/database/even-better-restore-v4.php:203
+msgid "Progress of %table_name%: %progress%"
+msgstr "Progression de %table_name% : %progress%"
+
+#: includes/database/even-better-restore-v3.php:170
+#: includes/database/even-better-restore-v4.php:170
+msgid "Started restoration of %table_name% %total_tables% table"
+msgstr "Démarrage de la restauration de la table %table_name% %total_tables%"
+
+#: includes/dashboard/translations.php:23
+msgid "rows"
+msgstr "lignes"
+
+#: includes/dashboard/translations.php:22
+msgid "In total you save %s MB."
+msgstr "Au total, vous économisez %s Mo."
+
+#: includes/dashboard/translations.php:21
+msgid "out of %s tables."
+msgstr "sur %s tables."
+
+#: includes/dashboard/translations.php:19
+msgid "If you see any black table here, it's recommended to exclude them."
+msgstr "Si vous voyez un tableau noir ici, il est recommandé de les exclure."
+
+#: includes/dashboard/translations.php:17
+msgid "Blue tables"
+msgstr "Tableaux bleus"
+
+#: includes/dashboard/translations.php:15
+msgid "Red tables"
+msgstr "Tableaux rouges"
+
+#: includes/dashboard/translations.php:14
+msgid "Currently you excluded"
+msgstr "Actuellement, vous avez exclu"
+
+#: includes/ajax.php:716 includes/ajax.php:1236
+#: includes/staging/controller.php:577
+msgid "MySQL Max Length: "
+msgstr "Longueur maximale de MySQL :"
+
+#: includes/ajax.php:715 includes/ajax.php:1235
+#: includes/staging/controller.php:576
+msgid "MySQL Version: "
+msgstr "Version MySQL :"
+
+#: includes/database/even-better-restore-v3.php:706
+#: includes/database/even-better-restore-v4.php:705
+msgid "Failed to enable plugin %plugin_name%, trying to not end at fatal error..."
+msgstr "Impossible d‘activer l‘extension %plugin_name%, essayant de ne pas se terminer par une erreur fatale..."
+
+#: includes/database/better-backup-v3.php:235
+#: includes/database/better-backup.php:160
+msgid "Excluding %s table from backup (due to exclusion rules)."
+msgstr "Exclusion de la table %s de la sauvegarde (en raison des règles d‘exclusion)."
+
+#: includes/dashboard/translations.php:18
+msgid "are related to your WordPress instance, most of them are related to your plugins."
+msgstr "sont similaires à votre instance WordPress, la plupart d‘entre eux sont similaires à vos extensions."
+
+#: includes/dashboard/translations.php:16
+msgid "makred with star* are part of WordPress core, exclude them only if youre 100% sure what you are doing."
+msgstr "marqués d‘une étoile* font partie du noyau de WordPress, excluez-les uniquement si vous êtes sûr à 100 % de ce que vous faites."
+
+#: includes/dashboard/chapter/other_config.php:431
+msgid "Restoration: Perform new Search & Replace after database import."
+msgstr "Restauration : effectuez une nouvelle recherche et remplacement après l‘importation de la base de données."
+
+#: includes/database/even-better-restore-v3.php:749
+#: includes/database/even-better-restore-v4.php:748
+msgid "All plugins enabled, you are ready to go :)"
+msgstr "Toutes les extensions activées, vous êtes prêt à partir :)"
+
+#: includes/database/even-better-restore-v3.php:705
+#: includes/database/even-better-restore-v4.php:704
+msgid "Plugin %plugin_name% enabled successfully."
+msgstr "Extension %plugin_name% bien activée."
+
+#: includes/database/even-better-restore-v3.php:697
+#: includes/database/even-better-restore-v4.php:696
+msgid "Enabling plugins included in the backup"
+msgstr "Activation des extensions incluses dans la sauvegarde"
+
+#: includes/database/even-better-restore-v3.php:351
+#: includes/database/even-better-restore-v4.php:344
+msgid "Search & Replace finished successfully."
+msgstr "Recherche et remplacement bien terminés."
+
+#: includes/dashboard/translations.php:39
+msgid "Pro feature:"
+msgstr "Fonctionnalité pro :"
+
+#: includes/constants.php:173
+msgid "check it out"
+msgstr "découvrez-le "
+
+#: includes/extracter/extract.php:1641
+msgid "Max rows per query (source site): "
+msgstr "Nombre maximum de lignes par requête (site source) :"
+
+#: includes/extracter/extract.php:1515
+msgid "Backup Migration version used for that backup: "
+msgstr "Version de migration de sauvegarde utilisée pour cette sauvegarde :"
+
+#: includes/database/even-better-restore-v3.php:880
+#: includes/database/even-better-restore-v4.php:844
+#: includes/database/smart-sort.php:734
+msgid "Cleaning up contents of %s table."
+msgstr "Nettoyage du contenu de la table %s."
+
+#: includes/extracter/extract.php:1643 includes/extracter/extract.php:1648
+#: includes/extracter/extract.php:1652
+msgid "Unknown query output value of backup file, maybe it was made before v1.1.7"
+msgstr "Valeur de sortie de requête inconnue du fichier de sauvegarde, peut-être qu‘elle a été créée avant la v1.1.7"
+
+#: includes/extracter/extract.php:1517 includes/extracter/extract.php:1522
+#: includes/extracter/extract.php:1526
+msgid "Backup was made with unknown version of Backup Migration plugin."
+msgstr "La sauvegarde a été effectuée avec une version inconnue de l‘extension Backup Migration."
+
+#: includes/initializer.php:652
+msgid "Disallowing to send mail as today we already sent one."
+msgstr "Refus d’envoyer un e-mail car nous en avons déjà envoyé un aujourd’hui."
+
+#: includes/ajax.php:714 includes/ajax.php:1234
+#: includes/staging/controller.php:575
+msgid "WP Version: "
+msgstr "Version WP :"
+
+#: includes/zipper/src/zip.php:844
+msgid "Extracting files into temporary directory (this process can take some time)..."
+msgstr "Extraction des fichiers dans un répertoire temporaire (ce processus peut prendre un certain temps)..."
+
+#: includes/extracter/extract.php:1676
+msgid "Table count to be imported: "
+msgstr "Nombre de tables à importer : "
+
+#: includes/extracter/extract.php:1675
+msgid "Total size of the database: "
+msgstr "Taille totale de la base de données :"
+
+#: includes/extracter/extract.php:1674
+msgid "Partial files count after conversion: "
+msgstr "Les fichiers partiels comptent après la conversion :"
+
+#: includes/extracter/extract.php:1671
+msgid "Calculaion completed, printing details."
+msgstr "Calcul terminé, impression des détails."
+
+#: includes/extracter/extract.php:1669
+msgid "Calculating new query size and counts."
+msgstr "Calcul de la nouvelle taille et du nombre de requêtes."
+
+#: includes/extracter/extract.php:974
+msgid "Checking the database structure..."
+msgstr "Vérification de la structure de la base de données..."
+
+#: includes/extracter/extract.php:798
+msgid "All files restored successfully."
+msgstr "Tous les fichiers ont bien été restaurés."
+
+#: includes/dashboard/chapter/other_config.php:424
+msgid "Enable SQL-Splitting for migration process."
+msgstr "Activez le fractionnement SQL pour le processus de migration."
+
+#: includes/dashboard/chapter/other_config.php:380
+msgid "database"
+msgstr "base de données"
+
+#: includes/dashboard/chapter/other_config.php:380
+msgid "Adjust queries amount per batch for your "
+msgstr "Ajustez le montant des requêtes par lot pour votre"
+
+#: includes/ajax.php:1854
+msgid "The value for query amount cannot be larger than 15000."
+msgstr "La valeur du montant de la requête ne peut pas être supérieure à 15 000."
+
+#: includes/ajax.php:1853
+msgid "The value for query amount cannot be smaller than 15."
+msgstr "La valeur du montant de la requête ne peut pas être inférieure à 15."
+
+#: includes/extracter/extract.php:782
+msgid "Restoring files (this process may take a while)..."
+msgstr "Restauration des fichiers (ce processus peut prendre un certain temps)..."
+
+#: includes/database/smart-sort.php:542
+msgid "Finished part %part% of %table% table."
+msgstr "Pièce finie %part% de la table %table%."
+
+#: includes/database/smart-sort.php:358
+msgid "Finished %progress%: %filename% table, total of %parts% parts."
+msgstr "%progress% terminé : table %filename%, total de %parts% parties."
+
+#: includes/database/better-restore.php:370
+msgid "Switching tables to new ones and removing old ones."
+msgstr "Basculer les tables vers les nouvelles et supprimer les anciennes."
+
+#: includes/dashboard/translations.php:165
+msgid "The process should be stopped now."
+msgstr "Le processus devrait être arrêté maintenant."
+
+#: includes/dashboard/translations.php:162
+msgid "Stopping the process, it will be confirmed..."
+msgstr "Arrêt du processus, ce sera confirmé..."
+
+#: includes/dashboard/chapter/troubleshooting.php:211
+msgid "Backup/restore process issues"
+msgstr "Problèmes de processus de sauvegarde/restauration"
+
+#: includes/extracter/extract.php:1673
+msgid "Total queries to insert after conversion: "
+msgstr "Nombre total de requêtes à insérer après conversion :"
+
+#: includes/dashboard/chapter/other_config.php:18
+msgid "This will split the SQL files (before migration or restore) into parts, which should make the process more stable and also allows to track the progress more precisely."
+msgstr "Cela divisera les fichiers SQL (avant la migration ou la restauration) en plusieurs parties, ce qui devrait rendre le processus plus stable et autoriser également de suivre la progression plus précisément."
+
+#: includes/dashboard/chapter/other_config.php:17
+msgid "Lower value means slower process but more stable restore, higher value means quicker backup and restore but it may be unstable (depends on database server performance). Default value: 300."
+msgstr "Une valeur plus faible signifie un processus plus lent mais une restauration plus stable, une valeur plus élevée signifie une sauvegarde et une restauration plus rapides mais cela peut être instable (dépend des performances du serveur de base de données). Valeur par défaut : 800."
+
+#: includes/ajax.php:733 includes/extracter/extract.php:1635
+#: includes/staging/controller.php:598
+msgid "Max rows per query (this site): "
+msgstr "Nombre maximum de lignes par requête (ce site) : "
+
+#: includes/dashboard/chapter/other_config.php:387
+msgid "Queries per batch for import/export: "
+msgstr "Requêtes par lot pour l’importation/exportation : "
+
+#: includes/dashboard/chapter/troubleshooting.php:217
+msgid "Force the process to stop."
+msgstr "Forcer l’arrêt du processus."
+
+#: includes/dashboard/chapter/troubleshooting.php:222
+msgid "Force the restoration to stop."
+msgstr "Forcer l’arrêt de la restauration."
+
+#: includes/extracter/extract.php:1695
+msgid "Ommiting database convert step as there is no database backup included."
+msgstr "Omettre l’étape de conversion de la base de données car aucune sauvegarde de la base de données n’est incluse."
+
+#: includes/extracter/extract.php:1690
+msgid "The process may be less stable if the database is larger than usual."
+msgstr "Le processus peut être moins stable si la base de données est plus grande que d’habitude."
+
+#: includes/extracter/extract.php:1667
+msgid "Database convertion finished successfully."
+msgstr "La conversion de la base de données s’est bien terminée."
+
+#: includes/dashboard/translations.php:159
+msgid "We could not stop the process due to some issues on your server (maybe file permissions)."
+msgstr "Nous n’avons pas pu arrêter le processus en raison de problèmes sur votre serveur (peut-être des droits d’accès de fichiers)."
+
+#: includes/dashboard/chapter/troubleshooting.php:225
+msgid "* If the process is still running after killing, that means it probably still running (for real), wait a bit for it to fail then."
+msgstr "* Si le processus est toujours en cours d’exécution après la suppression, cela signifie qu’il est probablement toujours en cours d’exécution (pour de vrai), attendez un peu qu’il échoue ensuite."
+
+#: includes/dashboard/chapter/troubleshooting.php:220
+msgid "If you are sure the restore process is not running but you can't run it: "
+msgstr "Si vous êtes sûr que le processus de restauration n’est pas en cours d’exécution mais que vous ne pouvez pas l’exécuter :"
+
+#: includes/extracter/extract.php:1689
+msgid "Ommiting database convert step as the database backup included was not made with V2 engine."
+msgstr "Omission de l’étape de conversion de la base de données car l’inclusion de la sauvegarde de la base de données n’a pas été effectuée avec le moteur V2."
+
+#: includes/extracter/extract.php:1633
+msgid "Converting database files into partial files."
+msgstr "Conversion des fichiers de base de données en fichiers partiels."
+
+#: includes/ajax.php:1260
+msgid "Restore process initialized successfully."
+msgstr "Processus de restauration bien initialisé."
+
+#: includes/dashboard/chapter/what_backed_up.php:249
+#: includes/dashboard/chapter/what_backed_up.php:273
+msgid "You can use there constant %s as your root path."
+msgstr "Vous pouvez utiliser la constante %s comme chemin racine."
+
+#: includes/dashboard/chapter/store_config.php:54
+msgid "16 character random hash"
+msgstr "Hachage aléatoire de 16 caractères"
+
+#: includes/zipper/src/zip.php:722
+msgid "Using ZipArchive, omiting memory limit calculations..."
+msgstr "Utilisation de ZipArchive, en omettant les calculs de limite de mémoire..."
+
+#: includes/extracter/extract.php:1447
+msgid "File extraction process failed."
+msgstr "Échec du processus d’extraction du fichier."
+
+#: includes/extracter/extract.php:1382
+msgid "Secret key detected successfully (pong)!"
+msgstr "Clé secrète détectée avec succès (pong) !"
+
+#: includes/extracter/extract.php:1340
+msgid " files inside the backup."
+msgstr "fichiers à l’intérieur de la sauvegarde."
+
+#: includes/extracter/extract.php:1340
+msgid "Scan found "
+msgstr "Analyse trouvée"
+
+#: includes/extracter/extract.php:1327
+msgid "Secret key generated, it will be returned to you (ping)."
+msgstr "Clé secrète générée, elle vous sera restituée (ping)."
+
+#: includes/extracter/extract.php:1026
+msgid "This backup does not contain database copy, omitting..."
+msgstr "Cette sauvegarde ne contient pas de copie de la base de données, en omettant..."
+
+#: includes/extracter/extract.php:636
+msgid "Files exported per batch: "
+msgstr "Fichiers exportés par lot :"
+
+#: includes/extracter/extract.php:635
+msgid "Preparing batching technique for extraction..."
+msgstr "Préparation de la technique de dosage pour l’extraction..."
+
+#: includes/dashboard/chapter/other_config.php:331
+msgid "Automatic"
+msgstr "Automatique"
+
+#: includes/ajax.php:1852
+msgid "Path to executable that you provided for PHP CLI does not exist."
+msgstr "Le chemin d’accès à l’exécutable que vous avez fourni pour PHP CLI n’existe pas."
+
+#: includes/dashboard/chapter/other_config.php:321
+msgid "Backup & Restore – PHP CLI Settings (advanced)"
+msgstr "Sauvegarde et restauration - Réglages PHP CLI (avancés)"
+
+#: includes/ajax.php:1199
+msgid "Restore process initialized, restoring (non-cli mode)..."
+msgstr "Processus de restauration initialisé, restauration (mode non-cli)..."
+
+#: includes/ajax.php:685
+msgid "PHP CLI file cannot be executed due to unknown reason."
+msgstr "Le fichier PHP CLI ne peut pas être exécuté pour une raison inconnue."
+
+#: includes/dashboard/chapter/other_config.php:343
+msgid "Disable PHP CLI Checking, try to use alternate methods."
+msgstr "Désactivez la vérification PHP CLI, essayez d’utiliser d’autres méthodes."
+
+#: includes/dashboard/chapter/other_config.php:335
+msgid "Please leave it empty if you do not know what you are doing, unless our support told you what it does."
+msgstr "Veuillez le laisser vide si vous ne savez pas ce que vous faites, à moins que notre support ne vous ait dit ce qu’il fait."
+
+#: includes/dashboard/chapter/other_config.php:334
+msgid "This field has no effect if PHP CLI is not available on the server or it is disabled due to settings."
+msgstr "Ce champ n’a aucun effet si PHP CLI n’est pas disponible sur le serveur ou s’il est désactivé en raison de réglages."
+
+#: includes/dashboard/chapter/other_config.php:326
+msgid "PHP CLI executable path:"
+msgstr "Chemin de l’exécutable PHP CLI :"
+
+#: includes/ajax.php:1399
+msgid "Restore process is currently running, please wait till it complete."
+msgstr "Le processus de restauration est en cours d’exécution, veuillez patienter jusqu’à ce qu’il soit terminé."
+
+#: includes/ajax.php:171
+msgid "PHP CLI is disabled manually, plugin will omit all PHP CLI steps."
+msgstr "PHP CLI est désactivé manuellement, l’extension omettra toutes les étapes PHP CLI."
+
+#: includes/zipper/src/zip.php:739
+msgid "ZipArchive is not available, using PclZIP."
+msgstr "ZipArchive n’est pas disponible, en utilisant PclZIP."
+
+#: includes/extracter/extract.php:1324
+msgid "Making new secret key for current restore process."
+msgstr "Création d’une nouvelle clé secrète pour le processus de restauration en cours."
+
+#: includes/extracter/extract.php:685
+msgid "Extraction milestone: "
+msgstr "Étape d’extraction :"
+
+#: includes/extracter/extract.php:669
+msgid "Failed to extract the files..."
+msgstr "Échec de l’extraction des fichiers..."
+
+#: includes/ajax.php:1529
+msgid "Downloading via PHP CLI"
+msgstr "Téléchargement via PHP CLI"
+
+#: includes/ajax.php:699
+msgid "Backup via PHP CLI initialized successfully."
+msgstr "Sauvegarde via PHP CLI initialisée avec succès."
+
+#: includes/ajax.php:424
+msgid "Cleaning up exported files..."
+msgstr "Nettoyage des fichiers exportés..."
+
+#: includes/ajax.php:337 includes/ajax.php:447
+msgid "#002"
+msgstr "#002"
+
+#: includes/ajax.php:202
+msgid "We properly detected PHP CLI executable file."
+msgstr "Nous avons correctement détecté le fichier exécutable PHP CLI."
+
+#: includes/ajax.php:200
+msgid "PHP CLI Memory limit: "
+msgstr "Limite de mémoire PHP CLI :"
+
+#: includes/extracter/extract.php:804
+msgid "Older backup detected, using V1 engine to restore database..."
+msgstr "Sauvegarde plus ancienne détectée, utilisant le moteur V1 pour restaurer la base de données..."
+
+#: includes/extracter/extract.php:902
+msgid "Successfully detected backup created with V2 engine, importing..."
+msgstr "Sauvegarde détectée avec succès créée avec le moteur V2, importation..."
+
+#: includes/ajax.php:188
+msgid "Could not find proper PHP CLI executable, this process may be unstable."
+msgstr "Impossible de trouver l’exécutable PHP CLI approprié, ce processus peut être instable."
+
+#: includes/ajax.php:186
+msgid "PHP CLI is disabled in your php.ini file, the process may be unstable."
+msgstr "PHP CLI est désactivé dans votre fichier php.ini, le processus peut être instable."
+
+#: includes/ajax.php:176
+msgid "Looking for PHP CLI executable file."
+msgstr "Recherche du fichier exécutable PHP CLI."
+
+#: includes/zipper/src/zip.php:429
+msgid "Backup will run as single-request, may be unstable..."
+msgstr "La sauvegarde s’exécutera en tant que demande unique, peut être instable..."
+
+#: includes/dashboard/chapter/other_config.php:361
+msgid "Use direct downloading - that will remove .htaccess protection right before download (can solve download issues)."
+msgstr "Utilisez le téléchargement direct - cela va retirer la protection .htaccess juste avant le téléchargement (peut résoudre les problèmes de téléchargement)."
+
+#: includes/dashboard/chapter/other_config.php:354
+msgid "technique"
+msgstr "technique"
+
+#: includes/dashboard/chapter/other_config.php:354
+msgid "Backup downloading"
+msgstr "Téléchargement de sauvegarde"
+
+#: includes/dashboard/chapter/other_config.php:350
+msgid "Change basic functions of the plugin"
+msgstr "Changer les fonctions de base de l’extension"
+
+#: includes/dashboard/modals/backup-success-modal.php:69
+#: includes/dashboard/modals/restore-success-modal.php:76
+msgid "Trouble logging in?"
+msgstr "Problème de connexion ?"
+
+#: includes/dashboard/modals/backup-success-modal.php:62
+#: includes/dashboard/modals/restore-success-modal.php:69
+msgid "Sounds fair, let me give a rating"
+msgstr "Cela semble juste, permettez-moi de donner une note"
+
+#: includes/zipper/src/zip.php:424
+msgid "Backup is running under PHP CLI environment."
+msgstr "La sauvegarde s’exécute sous l’environnement PHP CLI."
+
+#: includes/ajax.php:1196
+msgid "PHP CLI: Restore process initialized, restoring..."
+msgstr "PHP CLI : processus de restauration initialisé, restauration..."
+
+#: includes/ajax.php:1116
+msgid "The restore process is currently running, please wait till it end or once the lock file expire."
+msgstr "Le processus de restauration est en cours d’exécution, veuillez patienter jusqu’à la fin ou une fois le fichier de verrouillage expiré."
+
+#: includes/ajax.php:683
+msgid "PHP CLI will not run due to user settings in plugin other options."
+msgstr "PHP CLI ne s’exécutera pas en raison des réglages d’utilisateur/utilisatrice dans les autres options de l’extension."
+
+#: includes/ajax.php:668
+msgid "Backup will not be continued due to manual abort by user."
+msgstr "La sauvegarde ne sera pas poursuivie en raison d’un abandon manuel par l’utilisateur/utilisatrice."
+
+#: includes/ajax.php:661
+msgid "Something went wrong in PHP CLI process, backup will be continued with legacy methods."
+msgstr "Quelque chose s’est mal passé dans le processus PHP CLI, la sauvegarde se poursuivra avec les méthodes héritées."
+
+#: includes/ajax.php:201
+msgid "PHP CLI Execution limit: "
+msgstr "Limite d’exécution de la CLI PHP :"
+
+#: includes/ajax.php:199
+msgid "PHP CLI Version: "
+msgstr "Version de l’interface de ligne de commande PHP :"
+
+#: includes/ajax.php:198
+msgid "PHP CLI Filename: "
+msgstr "Nom de fichier de l’interface de ligne de commande PHP :"
+
+#: includes/ajax.php:1168
+msgid "No response from PHP CLI - plugin will try to recover the migration with traditional restore."
+msgstr "Aucune réponse de PHP CLI - l’extension essaiera de récupérer la migration avec une restauration traditionnelle."
+
+#: includes/dashboard/modals/backup-success-modal.php:56
+#: includes/dashboard/modals/restore-success-modal.php:63
+msgid "Like how easy it was? Then <b>PLEASE</b> give us a nice rating so that others discover out plugin & benefit from it too. Thank you!!"
+msgstr "Comme c’était facile ? Alors <b>Veuillez</b> nous donner une bonne note afin que d’autres découvrent notre extension et en profitent également. Merci !!"
+
+#: includes/ajax.php:2508
+msgid "This file is quite big consider to exclude it, if backup fails: "
+msgstr "Ce fichier est lourd, penser à l’exclure si la sauvegarde échoue :"
+
+#: includes/check/checker.php:48
+msgid "Requires at least "
+msgstr "Nécessite au moins "
+
+#: includes/check/checker.php:48
+msgid " bytes."
+msgstr " octets."
+
+#: includes/dashboard/chapter/other_config.php:14
+msgid "Use this option if you have full access to your server and you know how to make basic configuration of the server. Wrong configuration may give you hick-ups without error due to e.g. web server server timeout (for small sites below 300 MB this is the best option)."
+msgstr "Utilisez cette option si vous avez un accès complet au serveur et que vous savez comment effectuer la configuration de base du serveur. Une mauvaise configuration peut vous donner des hoquets sans erreur en raison, par exemple, du délai d’expiration du serveur (pour les petits sites de moins de 300 Mo, c’est la meilleure option)."
+
+#: includes/dashboard/chapter/other_config.php:15
+msgid "Use this option before the third one, it should work fine on SSD/NVMe hostings even for huge backups - but still may timeout if you are running on slow drive high I/O."
+msgstr "Utiliser cette option avant la troisième, elle devrait fonctionner correctement sur un hébergement SSD/NVMe pour les grosses sauvegardes - Mais peut toujours expirer si elle est exécutée sur des E/S à lecteur lent."
+
+#: includes/dashboard/chapter/other_config.php:16
+msgid "This option will require you to not close the backup window since it will use your connection to keep the backup in parts, it will disable automatic backups. Use this only if all of the above does not work. Recommended for huge sites +100k files / 5+ GB."
+msgstr "Cette option demande de ne pas fermer la fenêtre de sauvegarde car elle utilisera la connexion pour conserver la sauvegarde par portions, elle désactivera les sauvegardes automatiques. Utiliser seulement si tout ce qui précède ne fonctionne pas. Recommandé pour les sites énormes + 100k fichiers / + 5 Go."
+
+#: includes/dashboard/chapter/other_config.php:278
+msgid "Change functionality of the plugin"
+msgstr "Modifier les fonctionnalités de l’extension"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "Some"
+msgstr "Quelques"
+
+#: includes/dashboard/chapter/other_config.php:291
+msgid "Do not change the default plugin functions - it may require to adjust your server for stable backup"
+msgstr "Ne pas modifier les fonctions par défaut de l’extension - Il peut être nécessaire d’ajuster le serveur pour une sauvegarde stable"
+
+#: includes/dashboard/chapter/other_config.php:301
+msgid "Bypass web server timeout directive - backup process may be slower"
+msgstr "Contourner la directive de délai d’expiration du serveur - La procédure de sauvegarde peut être plus lente"
+
+#: includes/dashboard/chapter/other_config.php:311
+msgid "Bypass web server limits - it will disable automatic backup and possibility to run it in the background"
+msgstr "Contourner les limites du serveur - Cela désactivera la sauvegarde automatique et la possibilité de l’exécuter en arrière-plan"
+
+#: includes/dashboard/translations.php:45
+msgid "Browser successfully received backup settings."
+msgstr "Le navigateur a bien reçu les réglages de sauvegarde."
+
+#: includes/database/manager.php:238
+msgid "Failed to connect to MySQL: "
+msgstr "Connexion impossible à MySQL : "
+
+#: includes/database/manager.php:239
+msgid "Importing failed - cannot connect to the database."
+msgstr "Échec de l’importation - Impossible de ce connecter à la base de données."
+
+#: includes/database/manager.php:275
+msgid "Cannot open SQL file..."
+msgstr "Impossible d’ouvrir le fichier SQL…"
+
+#: includes/database/manager.php:276
+msgid "Importing failed - Cannot open SQL file..."
+msgstr "Échec de l’importation - Impossible d’ouvrir le fichier SQL…"
+
+#: includes/extracter/extract.php:805 includes/zipper/src/zip.php:133
+msgid "Database size: "
+msgstr "Taille de la base de données : "
+
+#: includes/zipper/src/zip.php:201
+msgid "WordPress memory limit: %s MBs"
+msgstr "Limite de mémoire WordPress : %s Mo"
+
+#: includes/zipper/src/zip.php:333
+msgid "Using PclZip module to create the backup"
+msgstr "Utilisation du module PclZip pour créer la sauvegarde"
+
+#: includes/zipper/src/zip.php:335
+msgid "Legacy setting: Using server-sided script and cURL based loop for better capabilities"
+msgstr "Réglage hérité : utilisation d’un script côté serveur et d’une boucle cURL pour de meilleures fonctionnalités"
+
+#: includes/zipper/src/zip.php:384
+msgid "Sending backup settings and identy to the browser"
+msgstr "Envoi des réglages de sauvegarde et de l’identité au navigateur"
+
+#: includes/zipper/src/zip.php:388
+msgid "Starting background process on server-side..."
+msgstr "Démarrage de la procédure en arrière-plan côté serveur…"
+
+#: includes/zipper/src/zip.php:402
+msgid "Could not find any response from the server, trying again in 3 seconds."
+msgstr "Impossible d’avoir une réponse du serveur, réessayez dans 3 secondes."
+
+#: includes/zipper/src/zip.php:443 includes/zipper/src/zip.php:774
+msgid "Using dedicated PclZIP for Premium Users."
+msgstr "Utilisation de PclZIP dédié pour les utilisateurs Premium."
+
+#: includes/zipper/src/zip.php:518
+msgid "Chunks contain "
+msgstr "Les portions contiennent "
+
+#: includes/zipper/src/zip.php:518
+msgid " files."
+msgstr " fichiers."
+
+#: includes/ajax.php:291 includes/ajax.php:375
+msgid "There was an error before request shutdown (but it was not logged to restore log)"
+msgstr "Une erreur est survenue avant la requête d’arrêt (mais elle n’a pas été enregistrée dans le journal de restauration)"
+
+#: includes/extracter/extract.php:1263
+msgid "Elementor cache cleared!"
+msgstr "Cache Elementor effacé !"
+
+#: includes/extracter/extract.php:1260
+msgid "Clearing elementor template cache..."
+msgstr "Effacement du cache des modèles Elementor…"
+
+#: includes/check/checker.php:54
+msgid "Checking this path/partition: "
+msgstr "Vérification de chemin/partition : "
+
+#: includes/dashboard/chapter/other_config.php:13
+msgid "It will change some fundamental logics of the plugin"
+msgstr "Cela modifiera certaines logiques fondamentales de l’extension"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "experimental"
+msgstr "expérimental"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "features"
+msgstr "fonctionnalités"
+
+#: includes/zipper/src/zip.php:337
+msgid "Legacy setting: Using user browser as middleware for full capabilities"
+msgstr "Réglage hérité : utilisation du navigateur utilisateur/utilisatrice comme middleware pour des permissions complètes"
+
+#: includes/zipper/src/zip.php:340
+msgid "Legacy setting: Using default modules depending on user server"
+msgstr "Réglage hérité : utilisation de modules par défaut en fonction du serveur utilisateur/utilisatrice"
+
+#: includes/zipper/src/zip.php:409
+msgid "Still nothing backup probably is not running."
+msgstr "Toujours rien, la sauvegarde ne fonctionne probablement pas."
+
+#: includes/zipper/zipping.php:49
+msgid "Something went wrong (pclzip) – removing backup files..."
+msgstr "Quelque chose s’est mal passé (pclzip) – suppression des fichiers de sauvegarde…"
+
+#: includes/initializer.php:380
+msgid "There was an error before request shutdown (but it was not logged to backup/restore log)"
+msgstr "Une erreur est survenue avant la requête d’arrêt (mais elle a été enregistrée dans le journal de sauvegarde/restauration)"
+
+#: includes/ajax.php:1060
+msgid "This is a test email sent by the Backup Migration plugin via Troubleshooting options!"
+msgstr "Ceci est un e-mail de test envoyé par Backup Migration via les options de dépannage !"
+
+#: includes/dashboard/modals/freeze-loading.php:20
+#: includes/dashboard/translations.php:156
+msgid "Loading..."
+msgstr "Chargement…"
+
+#: includes/initializer.php:396 includes/initializer.php:413
+msgid "You can get more pieces of information in troubleshooting log file."
+msgstr "Vous pouvez obtenir plus d’informations dans le fichier journal de dépannage."
+
+#: includes/initializer.php:458
+msgid "Aborting & unlocking restore process..."
+msgstr "Annulation et déverrouillage de la procédure de restauration…"
+
+#: includes/constants.php:169
+msgid "learn more"
+msgstr "en savoir plus"
+
+#: includes/constants.php:177
+msgid "Order it now at a big discount!"
+msgstr "Commandez-la maintenant avec une réduction !"
+
+#: includes/dashboard/chapter/troubleshooting.php:229
+msgid "Error: php_uname is disabled for security reasons"
+msgstr "Erreur : php_uname est désactivé pour des raisons de sécurité"
+
+#: includes/dashboard/chapter/troubleshooting.php:233
+msgid "Some hostings blocks php_uname function which is required by pclzip module included in WordPress."
+msgstr "Certains hébergements bloquent la fonction php_uname qui est nécessaire par le module pclzip de WordPress."
+
+#: includes/dashboard/chapter/troubleshooting.php:234
+msgid "You can automatically replace the function with compatible code:"
+msgstr "Vous pouvez remplacer automatiquement la fonction par un code compatible :"
+
+#: includes/dashboard/chapter/troubleshooting.php:235
+msgid "Replace php_uname function in pclzip file"
+msgstr "Remplacer la fonction php_uname dans le fichier pclzip"
+
+#: includes/dashboard/chapter/troubleshooting.php:236
+msgid "You can also restore the changes with one click if something went wrong:"
+msgstr "Vous pouvez également restaurer les modifications en un seul clic en cas de problème :"
+
+#: includes/dashboard/chapter/troubleshooting.php:237
+msgid "Restore original pclzip file (will work after first replacement)"
+msgstr "Restaurer le fichier pclzip original (fonctionne après le premier remplacement)"
+
+#: includes/dashboard/chapter/troubleshooting.php:241
+msgid "Test email"
+msgstr "E-mail de test"
+
+#: includes/dashboard/chapter/troubleshooting.php:246
+msgid "Check if the email is visible in your mailbox / spam folder."
+msgstr "Vérifier si l’e-mail est dans la boîte de messagerie/dossier indésirables."
+
+#: includes/dashboard/chapter/troubleshooting.php:247
+msgid "Message will be sent to e-mail you provided in the "
+msgstr "Le message sera envoyé à l’e-mail que vous avez saisi dans le "
+
+#: includes/dashboard/chapter/troubleshooting.php:247
+msgid "other options"
+msgstr "autres options"
+
+#: includes/dashboard/chapter/troubleshooting.php:248
+msgid "Click here"
+msgstr "Cliquer ici"
+
+#: includes/dashboard/chapter/troubleshooting.php:248
+msgid "to send the mail."
+msgstr "pour envoyer l’e-mail."
+
+#: includes/dashboard/chapter/what_backed_up.php:399
+msgid "* At this moment excluded files are not counted here - yet (it will be in future of course!)."
+msgstr "* Pour le moment, les fichiers exclus ne sont pas comptés ici (ce sera à l’avenir bien sûr !)."
+
+#: includes/dashboard/translations.php:147
+msgid "Manually created backups are always locked."
+msgstr "Les sauvegardes créées manuellement sont toujours verrouillées."
+
+#: includes/dashboard/translations.php:150
+msgid "Operation finished with success."
+msgstr "Opération bien terminée."
+
+#: includes/dashboard/chapter/troubleshooting.php:245
+msgid "If you're willing to know if your server is properly configured to send emails, you can test it here."
+msgstr "Pour savoir si le serveur est bien configuré pour envoyer des e-mails, vous pouvez le tester ici."
+
+#: includes/dashboard/chapter/troubleshooting.php:246
+msgid "Remember that even if you get success alert there still might be some issues."
+msgstr "Noter que même si vous obtenez une notification de réussite, il peut toujours y avoir des problèmes."
+
+#: includes/dashboard/translations.php:141
+msgid "Email send successfully, check mailbox."
+msgstr "E-mail bien envoyé, vérifier la boîte d’e-mail."
+
+#: includes/dashboard/translations.php:144
+msgid "There was an error sending the email, please use additional plugins to debug it or ask your hosting administrator for help."
+msgstr "Une erreur est survenue lors de l’envoi de l’e-mail, veuillez utiliser des extensions supplémentaires pour le déboguer ou demander de l’aide à l’administrateur/administratrice de l’hébergement."
+
+#: includes/dashboard/translations.php:153
+msgid "Operation failed, please try again."
+msgstr "Échec de l’opération, veuillez essayer à nouveau."
+
+#: includes/activation.php:26
+msgid "Plugin has been activated"
+msgstr "L’extension a été activée"
+
+#: includes/ajax.php:301 includes/ajax.php:326 includes/ajax.php:383
+#: includes/ajax.php:390 includes/ajax.php:415
+#: includes/staging/controller.php:696 includes/staging/controller.php:702
+msgid "Message: "
+msgstr "Message : "
+
+#: includes/ajax.php:292 includes/ajax.php:376 includes/initializer.php:381
+#: includes/initializer.php:390 includes/initializer.php:395
+#: includes/initializer.php:407 includes/initializer.php:412
+#: includes/initializer.php:430 includes/initializer.php:453
+#: includes/staging/controller.php:687
+msgid "Error message: "
+msgstr "Message d’erreur : "
+
+#: includes/ajax.php:299 includes/ajax.php:388
+#: includes/staging/controller.php:694
+msgid "Restore process was not aborted because this error is not related to Backup Migration."
+msgstr "Le processus de restauration n’a pas été abandonné car cette erreur n’est pas liée à Backup Migration."
+
+#: includes/ajax.php:300 includes/ajax.php:389
+#: includes/staging/controller.php:695
+msgid "There was an error not related to Backup Migration Plugin."
+msgstr "Une erreur non liée à l’extension Backup Migration s’est produite."
+
+#: includes/ajax.php:302 includes/ajax.php:391
+msgid "Backup will not be aborted because of this."
+msgstr "La sauvegarde ne sera pas abandonnée à cause de ça."
+
+#: includes/ajax.php:321 includes/ajax.php:410
+msgid "Cannot move: "
+msgstr "Impossible de déplacer : "
+
+#: includes/ajax.php:354 includes/ajax.php:355
+msgid "Restore exception: "
+msgstr "Exception de restauration :"
+
+#: includes/ajax.php:382
+msgid "There was an error/warning during restore process:"
+msgstr "Une erreur est survenue pendant la procédure de restauration :"
+
+#: includes/ajax.php:414
+msgid "There was an error during restore process:"
+msgstr "Une erreur est survenue durant la procédure de restauration :"
+
+#: includes/ajax.php:464 includes/ajax.php:465
+#: includes/staging/controller.php:724 includes/staging/controller.php:725
+msgid "Exception: "
+msgstr "Exception : "
+
+#: includes/ajax.php:713 includes/ajax.php:1233
+#: includes/staging/controller.php:574
+msgid "PHP Version: "
+msgstr "Version PHP : "
+
+#: includes/ajax.php:718 includes/ajax.php:1238
+#: includes/staging/controller.php:580
+msgid "Web server: "
+msgstr "Serveur : "
+
+#: includes/ajax.php:720 includes/ajax.php:1240
+#: includes/staging/controller.php:582
+msgid "Web server: Not available"
+msgstr "Serveur : non disponible"
+
+#: includes/ajax.php:722 includes/ajax.php:1242
+#: includes/staging/controller.php:585
+msgid "Max execution time (in seconds): "
+msgstr "Temps d’exécution maximum (en secondes) : "
+
+#: includes/ajax.php:752 includes/ajax.php:1225
+msgid "Initializing custom error handler"
+msgstr "Initialisation du gestionnaire d’erreurs personnalisé"
+
+#: includes/ajax.php:745 includes/ajax.php:1254
+#: includes/staging/controller.php:603
+msgid "Premium plugin is enabled and activated"
+msgstr "L’extension Premium est installée et activée"
+
+#: includes/ajax.php:747 includes/ajax.php:1256
+#: includes/staging/controller.php:605
+msgid "Premium version is enabled but not active, using free plugin."
+msgstr "La version Premium est installée mais pas active, vous utilisez la version gratuite."
+
+#: includes/ajax.php:1059
+msgid "Backup Migration – Example email"
+msgstr "Backup Migration - Exemple d’e-mail"
+
+#: includes/dashboard/modules/backup_controller.php:178
+msgid "time now:"
+msgstr "heure actuelle :"
+
+#: includes/dashboard/modules/backup_controller.php:183
+msgid "so that the backup process gets triggered"
+msgstr "pour que le processus de sauvegarde soit déclenché"
+
+#: includes/initializer.php:389
+msgid "There was an error during backup"
+msgstr "Une erreur est survenue lors de la sauvegarde"
+
+#: includes/initializer.php:406
+msgid "There was an error during restore process"
+msgstr "Une erreur est survenue durant la procédure de restauration"
+
+#: includes/initializer.php:428 includes/initializer.php:452
+msgid "Something bad happened on PHP side."
+msgstr "Une erreur est survenue du côté de PHP."
+
+#: includes/initializer.php:433
+msgid "Probably we could not increase the execution time, please edit your php.ini manually"
+msgstr "L’augmentation du le temps d’exécution ne semble pas fonctionner, il faut modifier le fichier php.ini manuellement."
+
+#: includes/initializer.php:1264
+msgid " seconds ago "
+msgstr " il y a quelques secondes "
+
+#: includes/initializer.php:1288
+msgid "Plugin has been deactivated"
+msgstr "L’extension a été désactivée"
+
+#: includes/ajax.php:325
+msgid "There was an error during backup:"
+msgstr "Une erreur est survenue durant la sauvegarde :"
+
+#: includes/ajax.php:327 includes/ajax.php:384 includes/ajax.php:416
+#: includes/staging/controller.php:703
+msgid "File/line: "
+msgstr "Fichier/ligne : "
+
+#: includes/ajax.php:293 includes/ajax.php:377 includes/initializer.php:382
+#: includes/initializer.php:391 includes/initializer.php:408
+#: includes/initializer.php:431 includes/initializer.php:454
+#: includes/staging/controller.php:688
+msgid "Error file/line: "
+msgstr "Fichier/ligne d’erreur : "
+
+#: includes/ajax.php:420
+msgid "Aborting restore process..."
+msgstr "Abandon du processus de restauration…"
+
+#: includes/ajax.php:328 includes/initializer.php:429
+msgid "Unfortunately we had to remove the backup (if partly created)."
+msgstr "Malheureusement nous avons dû supprimer la sauvegarde (si partiellement créée)."
+
+#: includes/ajax.php:306 includes/ajax.php:312 includes/ajax.php:318
+#: includes/ajax.php:395 includes/ajax.php:401 includes/ajax.php:407
+msgid "Restore process was not aborted due to this error."
+msgstr "La procédure de restauration n’a pas été abandonnée en raison de cette erreur."
+
+#: includes/initializer.php:1263
+msgid "[DOWNLOAD GENERATED] File downloaded on (server time): "
+msgstr "[TÉLÉCHARGEMENT GÉNÉRÉ] Fichier téléchargé à (heure du serveur) :"
+
+#: includes/initializer.php:1264
+msgid "[DOWNLOAD GENERATED] Last update (seconds): "
+msgstr "[TÉLÉCHARGEMENT GÉNÉRÉ] Dernière mise à jour (secondes) :"
+
+#: includes/initializer.php:1265
+msgid "[DOWNLOAD GENERATED] Last update (date): "
+msgstr "[TÉLÉCHARGEMENT GÉNÉRÉ] Dernière mise à jour (date) :"
+
+#. Plugin Name of the plugin
+msgid "Backup Migration"
+msgstr "Backup Migration"
+
+#: includes/extracter/extract.php:1270
+msgid "Cleaning temporary files..."
+msgstr "Nettoyage des fichiers temporaires…"
+
+#: includes/extracter/extract.php:813 includes/extracter/extract.php:842
+#: includes/extracter/extract.php:858 includes/extracter/extract.php:875
+#: includes/extracter/extract.php:967
+msgid "Database restored"
+msgstr "Base de données restaurée"
+
+#: includes/extracter/extract.php:903
+msgid "Restoring database..."
+msgstr "Restauration de la base de données…"
+
+#: includes/extracter/extract.php:1181
+msgid "WP-Config restored"
+msgstr "WP-Config restauré"
+
+#: includes/extracter/extract.php:1167
+msgid "Restoring wp-config file..."
+msgstr "Restauration du fichier wp-config…"
+
+#: includes/extracter/extract.php:772
+msgid "Manifest loaded"
+msgstr "Manifeste chargé"
+
+#: includes/extracter/extract.php:699
+msgid "Files extracted..."
+msgstr "Fichiers extraits…"
+
+#: includes/dashboard/modals/after-logs-sent.php:74
+#: includes/dashboard/modals/backup-error-modal.php:55
+#: includes/dashboard/modals/backup-success-modal.php:93
+#: includes/dashboard/modals/restore-error-modal.php:55
+#: includes/dashboard/modals/staging-error-modal.php:55
+msgid "Close window"
+msgstr "Fermer la fenêtre"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:68
+#: includes/dashboard/modals/reset-confirm-modal.php:32
+#: includes/dashboard/modals/staging-delete-confirm-modal.php:38
+msgid "No, cancel"
+msgstr "Non, annuler"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:28
+#: includes/dashboard/modals/delete-confirm-modal.php:36
+#: includes/dashboard/modals/delete-confirm-modal.php:44
+msgid "delete"
+msgstr "supprimer"
+
+#: includes/dashboard/chapter/other_config.php:501
+msgid "troubleshooting"
+msgstr "dépannage"
+
+#: includes/dashboard/chapter/other_config.php:264
+msgid "WP CLI"
+msgstr "WP CLI"
+
+#: includes/dashboard/chapter/other_config.php:229
+#: includes/dashboard/modals/after-logs-sent.php:45
+#: includes/dashboard/modals/backup-success-modal.php:35
+msgid "Copy"
+msgstr "Copier"
+
+#: includes/dashboard/chapter/other_config.php:244
+#: includes/dashboard/chapter/save-button.php:12
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/dashboard/chapter/troubleshooting.php:252
+msgid "Reset configuration"
+msgstr "Réinitialiser la configuration"
+
+#: includes/dashboard/chapter/troubleshooting.php:199
+msgid "Logging"
+msgstr "Connexion"
+
+#: includes/dashboard/chapter/troubleshooting.php:185
+#: includes/dashboard/chapter/troubleshooting.php:186
+msgid "See more"
+msgstr "Voir plus"
+
+#: includes/dashboard/chapter/troubleshooting.php:129
+msgid "Site information"
+msgstr "Informations sur le site"
+
+#: includes/dashboard/templates/backup-row-template.php:29
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: includes/dashboard/chapter/store_config.php:130
+msgid "Encryption"
+msgstr "Chiffrement"
+
+#: includes/dashboard/chapter/what_backed_up.php:359
+#: includes/dashboard/chapter/what_backed_up.php:375
+#: includes/dashboard/chapter/what_backed_up.php:383
+msgid "Exclude"
+msgstr "Exclure"
+
+#: includes/dashboard/chapter/what_backed_up.php:289
+msgid "Databases"
+msgstr "Bases de données"
+
+#: includes/dashboard/chapter/what_backed_up.php:240
+msgid "Examples:"
+msgstr "Exemples :"
+
+#: includes/dashboard/chapter/what_backed_up.php:193
+msgid "file size"
+msgstr "taille du fichier"
+
+#: includes/dashboard/chapter/other_config.php:146
+#: includes/dashboard/chapter/store_config.php:145
+#: includes/dashboard/chapter/what_backed_up.php:177
+#: includes/dashboard/chapter/what_backed_up.php:337
+#: includes/dashboard/chapter/where_config.php:67
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/dashboard/chapter/other_config.php:140
+#: includes/dashboard/chapter/store_config.php:140
+#: includes/dashboard/chapter/what_backed_up.php:172
+#: includes/dashboard/chapter/what_backed_up.php:331
+#: includes/dashboard/chapter/where_config.php:61
+msgid "No"
+msgstr "Non"
+
+#: includes/dashboard/chapter/what_backed_up.php:113
+msgid "Themes"
+msgstr "Thèmes"
+
+#: includes/dashboard/chapter/what_backed_up.php:81
+#: includes/dashboard/chapter/what_backed_up.php:100
+#: includes/dashboard/chapter/what_backed_up.php:119
+#: includes/dashboard/chapter/what_backed_up.php:138
+#: includes/dashboard/chapter/what_backed_up.php:157
+msgid "Details"
+msgstr "Détails"
+
+#: includes/dashboard/chapter/what_backed_up.php:76
+msgid "Plugins"
+msgstr "Extensions"
+
+#: includes/dashboard/chapter/what_backed_up.php:55
+msgid "Files"
+msgstr "Fichiers"
+
+#: includes/dashboard/modules/backups-under-table.php:91
+msgid "Load more"
+msgstr "Charger plus"
+
+#: includes/dashboard/chapter/where_config.php:30
+msgid "Locally"
+msgstr "Localement"
+
+#: includes/dashboard/chapter/troubleshooting.php:185
+#: includes/dashboard/modules/backup_controller.php:207
+#: includes/dashboard/modules/email-errors.php:21
+#: includes/dashboard/modules/quota-errors.php:21
+msgid "Collapse"
+msgstr "Réduire"
+
+#: includes/dashboard/modules/backup_controller.php:203
+msgid "here"
+msgstr "ici"
+
+#: includes/dashboard/modules/backup_controller.php:136
+msgid "minutes"
+msgstr "minutes"
+
+#: includes/dashboard/modules/backup_controller.php:118
+msgid "at"
+msgstr "à"
+
+#: includes/dashboard/modules/backup_controller.php:114
+msgid "Saturday"
+msgstr "Samedi"
+
+#: includes/dashboard/modules/backup_controller.php:113
+msgid "Friday"
+msgstr "Vendredi"
+
+#: includes/dashboard/modules/backup_controller.php:112
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: includes/dashboard/modules/backup_controller.php:111
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: includes/dashboard/modules/backup_controller.php:110
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: includes/dashboard/modules/backup_controller.php:109
+msgid "Monday"
+msgstr "Lundi"
+
+#: includes/dashboard/modules/backup_controller.php:94
+msgid "Day"
+msgstr "Jour"
+
+#: includes/dashboard/modules/backup_controller.php:93
+msgid "Week"
+msgstr "Semaine"
+
+#: includes/dashboard/modules/backup_controller.php:92
+msgid "Month"
+msgstr "Mois"
+
+#: includes/dashboard/chapter/staging.php:163
+#: includes/dashboard/modules/backups-table-header.php:42
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/dashboard/modules/backups-table-header.php:27
+msgid "Size"
+msgstr "Taille"
+
+#: includes/dashboard/modules/backups-table-header.php:22
+msgid "Filename"
+msgstr "Nom du fichier"
+
+#: includes/dashboard/templates/backup-row-template.php:82
+msgid "Delete this backup"
+msgstr "Supprimer cette sauvegarde"
+
+#: includes/dashboard/templates/backup-row-template.php:79
+msgid "Restore"
+msgstr "Restaurer"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:27
+msgid "file name"
+msgstr "nom du fichier"
+
+#: includes/dashboard/settings.php:134
+msgid "Troubleshooting"
+msgstr "Dépannage"
+
+#: includes/dashboard/chapter/store_config.php:156
+#: includes/dashboard/chapter/troubleshooting.php:260
+#: includes/dashboard/settings.php:124
+msgid "Other options"
+msgstr "Autres options"
+
+#: includes/dashboard/settings.php:98
+msgid "Where"
+msgstr "Où"
+
+#: includes/dashboard/modules/backup_controller.php:163
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: includes/dashboard/modals/backup-success-modal.php:87
+msgid "Download backup"
+msgstr "Télécharger la sauvegarde"
+
+#: includes/dashboard/modals/backup-progress-modal.php:36
+#: includes/dashboard/modals/restore-progress-modal.php:35
+#: includes/dashboard/modals/staging-progress-modal.php:35
+msgid "Step: "
+msgstr "Étape : "
+
+#: includes/dashboard/modals/reset-confirm-modal.php:22
+msgid "This action cannot be undone!"
+msgstr "Cette opération est irréversible !"
+
+#: includes/dashboard/translations.php:132
+msgid "Settings updated successfully"
+msgstr "Réglages bien mis à jour"
+
+#: includes/dashboard/chapter/other_config.php:239
+msgid "Key:"
+msgstr "Clé :"
+
+#: includes/dashboard/chapter/other_config.php:35
+msgid "Email address:"
+msgstr "Adresse e-mail :"
+
+#: includes/dashboard/chapter/other_config.php:31
+msgid "Email notifications"
+msgstr "Notifications par e-mail"
+
+#: includes/dashboard/chapter/troubleshooting.php:256
+msgid "Please"
+msgstr "Veuillez"
+
+#: includes/dashboard/chapter/store_config.php:58
+msgid "Hide"
+msgstr "Masquer"
+
+#: includes/dashboard/chapter/store_config.php:37
+msgid "A short textual representation of a month, three letters"
+msgstr "Une courte représentation textuelle d’un mois, trois lettres"
+
+#: includes/dashboard/chapter/what_backed_up.php:379
+msgid "thumbnails"
+msgstr "miniatures"
+
+#: includes/dashboard/chapter/what_backed_up.php:215
+msgid "Add an exclusion rule"
+msgstr "Ajouter une règle d’exclusion"
+
+#: includes/dashboard/chapter/what_backed_up.php:208
+msgid "(case-sensitive)"
+msgstr "(sensible à la casse)"
+
+#: includes/dashboard/chapter/what_backed_up.php:94
+msgid "Uploads"
+msgstr "Téléversements"
+
+#: includes/dashboard/modules/backups-under-table.php:78
+msgid "Cancel upload"
+msgstr "Annuler le téléversement"
+
+#: includes/dashboard/modules/backups-under-table.php:68
+msgid "Upload in progress"
+msgstr "Téléversement en cours"
+
+#: includes/dashboard/modules/backups-under-table.php:19
+msgid "Upload backup files"
+msgstr "Téléverser des fichiers de sauvegarde"
+
+#: includes/dashboard/modules/backup_controller.php:200
+msgid "For"
+msgstr "Pour"
+
+#: includes/dashboard/chapter/other_config.php:191
+#: includes/dashboard/modules/backup_controller.php:77
+msgid "Off"
+msgstr "Inactif"
+
+#: includes/dashboard/chapter/other_config.php:190
+#: includes/dashboard/modules/backup_controller.php:76
+msgid "On"
+msgstr "Actif"
+
+#: includes/dashboard/modules/backup_controller.php:39
+msgid "now!"
+msgstr "maintenant !"
+
+#: includes/dashboard/modules/backup_controller.php:39
+msgid "Create backup"
+msgstr "Créer une sauvegarde"
+
+#: includes/dashboard/settings.php:110
+msgid "How"
+msgstr "Comment"
+
+#: includes/dashboard/settings.php:74
+msgid "Configuration options"
+msgstr "Options de configuration"
+
+#: includes/dashboard/modules/backup_controller.php:98
+#: includes/dashboard/templates/exclusion-rule-template.php:24
+msgid "the"
+msgstr "le"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:21
+msgid "at the end of"
+msgstr "à la fin de"
+
+#: includes/dashboard/modals/backup-progress-modal.php:16
+msgid "Backup in progress"
+msgstr "Sauvegarde en cours"
+
+#: includes/dashboard/modals/bfs-modal.php:51
+msgid "(which includes other cool features too!)"
+msgstr "(qui comprend dautres fonctionnalités aussi cool !)"
+
+#: includes/dashboard/chapter/where_config.php:31
+msgid "(on this web server)"
+msgstr "(sur ce serveur web)"
+
+#: includes/dashboard/modules/backup-ongoing.php:23
+msgid "Backup in progress!"
+msgstr "Sauvegarde en cours !"
+
+#: includes/dashboard/modules/backup_controller.php:68
+msgid "Automatic backups creation"
+msgstr "Création automatique de sauvegardes"
+
+#: includes/check/checker.php:56
+msgid " MB free."
+msgstr " Mo gratuit."
+
+#: includes/ajax.php:1622
+msgid "Downloaded backup may be incomplete (missing manifest)"
+msgstr "La sauvegarde téléchargée peut être incomplète (manifeste manquant)"
+
+#: includes/ajax.php:1623
+msgid "...or provided URL is not a direct download of ZIP file."
+msgstr "… ou l’URL saisie n’est pas un téléchargement direct du fichier ZIP."
+
+#: includes/ajax.php:1838
+msgid "Entered path is not writable, cannot be used."
+msgstr "Le chemin saisi n’est pas accessible en écriture, il ne peut pas être utilisé."
+
+#: includes/ajax.php:1847
+msgid "Provided email addess is not valid."
+msgstr "L’adresse e-mail fournie est non valide."
+
+#: includes/ajax.php:2128
+msgid "Entred file size limit, is not correct number."
+msgstr "Limite de taille de fichier saisie, nombre incorrect."
+
+#: includes/ajax.php:2473
+msgid "Removing file from backup (due to exclude rules): "
+msgstr "Suppression du fichier de sauvegarde (en raison des règles d’exclusion ) : "
+
+#: includes/ajax.php:2482
+msgid "Removing file from backup (due to path rules): "
+msgstr "Suppression du fichier de sauvegarde (en raison des règles de chemin) : "
+
+#: includes/check/checker.php:58
+msgid "Great! We have enough space."
+msgstr "Super ! Il y a suffisamment d’espace."
+
+#: includes/check/checker.php:67
+msgid "Disk free space function is disabled by hosting."
+msgstr "La fonction d’espace libre sur le disque est désactivée par l’hébergement."
+
+#: includes/check/checker.php:68
+msgid "Using dummy file to check free space (it can take some time)."
+msgstr "Utiliser un fichier factice pour vérifier l’espace libre (cela peut prendre un certain temps)."
+
+#: includes/check/system_info.php:125 includes/check/system_info.php:142
+#: includes/check/system_info.php:249 includes/check/system_info.php:475
+#: includes/check/system_info.php:476 includes/check/system_info.php:477
+msgid "Blocked by hosting"
+msgstr "Bloqué par l’hébergement"
+
+#: includes/constants.php:168
+msgid "This feature isn’t ready yet in the premium plugin, that’s why you can buy it at a <b>big discount</b>"
+msgstr "Cette fonctionnalité n’est pas encore prête dans l’extension Premium, vous pouvez l’acheter avec une <b>réduction</b>"
+
+#: includes/constants.php:182
+msgid "Coming soon in the Premium Plugin"
+msgstr "Bientôt dans l’extension Premium"
+
+#: includes/constants.php:196
+msgid "Coming soon also in the free plugin"
+msgstr "Bientôt également dans l’extension gratuite"
+
+#: includes/constants.php:196
+msgid "stay tuned!"
+msgstr "Restez à l’écoute !"
+
+#: includes/dashboard/chapter/other_config.php:48
+msgid "This is where the log files will be sent to. You can enter several email addresses, separated by comma."
+msgstr "Adresse e-mail où les fichiers journaux sont envoyés. Vous pouvez saisir plusieurs adresses e-mail, séparées par une virgule."
+
+#: includes/dashboard/chapter/other_config.php:89
+msgid "Backup creation failed"
+msgstr "Échec de création de sauvegarde"
+
+#: includes/dashboard/chapter/other_config.php:98
+msgid "Restore succeeded"
+msgstr "Restauration réussie"
+
+#: includes/dashboard/chapter/other_config.php:105
+#: includes/dashboard/modals/restore-error-modal.php:32
+msgid "Restore failed"
+msgstr "Échec de restauration"
+
+#: includes/dashboard/chapter/other_config.php:115
+msgid "There are (new) issues with scheduling (creating automatic backups)"
+msgstr "Il y a de (nouveaux) problèmes avec la planification (création de sauvegardes automatiques)"
+
+#: includes/dashboard/chapter/other_config.php:134
+msgid "Add logs to emails?"
+msgstr "Ajouter les journaux aux e-mails ?"
+
+#: includes/dashboard/chapter/other_config.php:158
+msgid "If you want to also receive the backup file as attachment of the email (for backup notifications), please set this in chapter Where will backups be stored?."
+msgstr "Pour recevoir le fichier de sauvegarde en pièce jointe de l’e-mail (pour les notifications de sauvegarde), veuillez le définir dans la section « Où les sauvegardes doivent-elles être stockées ? »."
+
+#: includes/dashboard/chapter/other_config.php:165
+msgid "Backup triggers"
+msgstr "Déclencheurs de sauvegarde"
+
+#: includes/dashboard/chapter/other_config.php:169
+msgid "At the top of the plugin you can create a backup instantly (\"Create backup now\" - button), or schedule them. Here are more options which trigger the backup creation:"
+msgstr "En haut de l’écran, vous pouvez créer une sauvegarde instantanément (bouton « Créer une sauvegarde maintenant »), ou la planifier. Voici d’autres options qui déclenchent la création d’une sauvegarde :"
+
+#: includes/dashboard/chapter/other_config.php:182
+msgid "Before updates"
+msgstr "Avant les mises à jour"
+
+#: includes/dashboard/chapter/other_config.php:215
+msgid "Trigger by URI"
+msgstr "Déclencher par URL"
+
+#: includes/dashboard/chapter/other_config.php:236
+msgid "Make sure you keep this url a secret. For safety reasons this only works once per hour & you’ll get emailed when it used."
+msgstr "Assurez-vous de garder cette URL secrète. Pour des raisons de sécurité, cela ne fonctionne qu’une fois par heure et vous recevrez un e-mail en cas d’utilisation."
+
+#: includes/dashboard/chapter/other_config.php:268
+msgid "Trigger backups via WP CLI."
+msgstr "Déclencher des sauvegardes via WP CLI."
+
+#: includes/dashboard/chapter/other_config.php:476
+msgid "Clean-ups"
+msgstr "Nettoyages"
+
+#: includes/dashboard/chapter/other_config.php:480
+msgid "When this plugins is"
+msgstr "Lorsque ces extensions sont"
+
+#: includes/dashboard/chapter/other_config.php:480
+msgid "de-installed:"
+msgstr "désinstallés :"
+
+#: includes/dashboard/chapter/other_config.php:488
+msgid "Delete all plugins settings (this means if you install it again, you have to configure it again)"
+msgstr "Supprimer tous les réglages de l’extension (à la prochaine installation il faudra la reconfigurer)"
+
+#: includes/dashboard/chapter/other_config.php:494
+msgid "Delete all backups (created by this plugin)"
+msgstr "Supprimer toutes les sauvegardes (créées par l’extension)"
+
+#: includes/dashboard/chapter/store_config.php:17
+msgid "File name"
+msgstr "Nom de fichier"
+
+#: includes/dashboard/chapter/store_config.php:33
+msgid "We’re giving you maximum flexibility to automatically name your backup files in the way you want. Simply use below keys:"
+msgstr "Vous avez une flexibilité maximale pour nommer automatiquement les fichiers de sauvegarde comme vous le souhaitez. Utilisez simplement les balises ci-dessous :"
+
+#: includes/dashboard/chapter/store_config.php:36
+#: includes/dashboard/chapter/store_config.php:43
+msgid "A full numeric representation of a year, 4 digits"
+msgstr "Une représentation numérique complète d’un an, 4 chiffres"
+
+#: includes/dashboard/chapter/store_config.php:38
+msgid "A textual representation of a day, three letters"
+msgstr "Une représentation textuelle d’un jour, trois lettres"
+
+#: includes/dashboard/chapter/store_config.php:39
+msgid "Day of the month, 2 digits with leading zeros"
+msgstr "Jour du mois, 2 chiffres avec zéros non significatifs"
+
+#: includes/dashboard/chapter/store_config.php:40
+msgid "Day of the month without leading zeros"
+msgstr "Jour du mois sans zéros non significatifs"
+
+#: includes/dashboard/chapter/store_config.php:41
+msgid "Numeric representation of a month, with leading zeros"
+msgstr "Représentation numérique d’un mois, avec des zéros non significatifs"
+
+#: includes/dashboard/chapter/store_config.php:42
+msgid "Numeric representation of a month, without leading zeros"
+msgstr "Représentation numérique d’un mois, sans zéros non significatifs"
+
+#: includes/dashboard/chapter/store_config.php:44
+msgid "A two digit representation of a year"
+msgstr "Une représentation à deux chiffres d’un an"
+
+#: includes/dashboard/chapter/store_config.php:45
+msgid "Lowercase Ante meridiem and Post meridiem"
+msgstr "Minuscule AM et PM"
+
+#: includes/dashboard/chapter/store_config.php:46
+msgid "Uppercase Ante meridiem and Post meridiem"
+msgstr "Majuscule AM et PM"
+
+#: includes/dashboard/chapter/store_config.php:47
+msgid "Swatch Internet time"
+msgstr "Récupérer l’heure internet"
+
+#: includes/dashboard/chapter/store_config.php:48
+msgid "12-hour format of an hour without leading zeros"
+msgstr "Format 12 heures - Heure sans zéros significatifs"
+
+#: includes/dashboard/chapter/store_config.php:49
+msgid "24-hour format of an hour without leading zeros"
+msgstr "Format 24 heures - Heure sans zéros significatifs"
+
+#: includes/dashboard/chapter/store_config.php:50
+msgid "12-hour format of an hour with leading zeros"
+msgstr "Format 12 heures - Heure avec zéros non significatifs"
+
+#: includes/dashboard/chapter/store_config.php:51
+msgid "24-hour format of an hour with leading zeros"
+msgstr "Format 24 heures - Heure avec zéros non significatifs"
+
+#: includes/dashboard/chapter/store_config.php:52
+msgid "Minutes with leading zeros"
+msgstr "Minutes avec zéros non significatifs"
+
+#: includes/dashboard/chapter/store_config.php:53
+msgid "Seconds with leading zeros"
+msgstr "Seconds with leading zeros"
+
+#: includes/dashboard/chapter/store_config.php:66
+msgid "Zipping"
+msgstr "Compression Zip"
+
+#: includes/dashboard/chapter/store_config.php:67
+msgid "Please select the compression method of your backup files:"
+msgstr "Sélectionner le mode de compression des fichiers de sauvegarde :"
+
+#: includes/dashboard/chapter/store_config.php:112
+msgid "“ZIP” is the standard choice (compression level 1). Use “Tar” (compression level 2) or Tar.gz (compression level 5) if you want to have more compression (i.e. smaller file sizes). However, this will also put more load on the backup creation."
+msgstr "« Zip » est le mode standard (niveau de compression 1). Utilisez « Tar » (niveau de compression 2) ou Tar.gz (niveau de compression 5) pour une plus forte compression (donc une plus petite taille). Notez que cela augmente le temps de création de la sauvegarde."
+
+#: includes/dashboard/chapter/store_config.php:134
+msgid "Do you want to encrypt and password protect your files?"
+msgstr "Voulez-vous crypter et protéger vos fichiers par mot de passe ?"
+
+#: includes/dashboard/chapter/store_config.php:156
+msgid "For other security settings, e.g. who can access your backup directories, please go to the"
+msgstr "Pour d’autres réglages de sécurité, par ex. qui peut accéder à vos répertoires de sauvegarde, aller à la section"
+
+#: includes/dashboard/chapter/troubleshooting.php:30
+msgid "If something doesn't work, you have several options - pick one:"
+msgstr "Si quelque chose ne fonctionne pas, vous avez plusieurs options :"
+
+#: includes/dashboard/chapter/troubleshooting.php:44
+msgid "Ask us in the Support forum"
+msgstr "Contactez-nous via le forum de support"
+
+#: includes/dashboard/chapter/troubleshooting.php:48
+msgid "Your first port of call. We'll try to respond quickly!"
+msgstr "Nous essaierons de répondre rapidement !"
+
+#: includes/dashboard/chapter/troubleshooting.php:61
+msgid "Get the Premium Plugin"
+msgstr "Obtenez l’extension Premium"
+
+#: includes/dashboard/chapter/troubleshooting.php:65
+msgid "...which includes support, so we can help you in more detail if you get stuck."
+msgstr "… qui inclut une support pour vous aider plus en détail si vous êtes bloqué."
+
+#: includes/dashboard/chapter/troubleshooting.php:77
+msgid "Check advanced options"
+msgstr "Vérifiez les options avancées"
+
+#: includes/dashboard/chapter/troubleshooting.php:81
+msgid "...in an effort to fix it yourself. Be sure you know what you are doing!"
+msgstr "… pour réparer vous-même. Assurez-vous de savoir ce que vous faites !"
+
+#: includes/dashboard/chapter/troubleshooting.php:88
+msgid "Cannot log in there?"
+msgstr "Vous ne pouvez pas vous y connecter ?"
+
+#: includes/dashboard/chapter/troubleshooting.php:102
+msgid "Troubleshooting settings"
+msgstr "Réglages de dépannage"
+
+#: includes/dashboard/chapter/troubleshooting.php:132
+msgid "Here is some information about your site, which may help to debug if there is an issue:"
+msgstr "Voici quelques informations sur le site, elles peuvent aider au débogage en cas de problème :"
+
+#: includes/dashboard/chapter/troubleshooting.php:195
+msgid "Download your site infos"
+msgstr "Télécharger les infos du site"
+
+#: includes/dashboard/chapter/troubleshooting.php:195
+msgid "(e.g. for easy sharing with us, so that we can debug)"
+msgstr "(ex. : pour partager avec nous afin que nous puissions déboguer)"
+
+#: includes/dashboard/chapter/troubleshooting.php:203
+msgid "All backup creation & restore processes are documented in log files which to debug issues."
+msgstr "Toutes les procédures de création et de restauration de sauvegarde sont documentées dans des fichiers journaux pour déboguer les problèmes."
+
+#: includes/dashboard/chapter/troubleshooting.php:206
+msgid "Download logs."
+msgstr "Journaux de téléchargements."
+
+#: includes/dashboard/chapter/troubleshooting.php:256
+msgid "click here"
+msgstr "cliquer ici"
+
+#: includes/dashboard/chapter/troubleshooting.php:256
+msgid "to reset plugin configuration."
+msgstr "pour réinitialiser la configuration de l’extension."
+
+#: includes/dashboard/chapter/troubleshooting.php:260
+msgid "If you’re looking for other options not listed above, check out the"
+msgstr "Pour d’autres options non répertoriées ci-dessus, consulter la"
+
+#: includes/dashboard/chapter/what_backed_up.php:20
+msgid "Here are stored all plugin, theme, WordPress installation files, but also files from Media library and other folders and files located in your server’s site directory. Note that WordPress keeps records of files such as Media library in the Databases, so you should also backup Databases if you want WordPress to “see” e.g. recovered media files. Size here is the total size you can get."
+msgstr "Ici sont stockés toutes les extensions, thèmes, fichiers d’installation de WordPress, mais aussi les fichiers de la médiathèque et d’autres dossiers et fichiers situés dans le répertoire du site. Notez que WordPress conserve des enregistrements de fichiers tels que la bibliothèque multimédia dans les bases de données, il faut donc également sauvegarder les bases de données pour que WordPress « voit » par exemple fichiers multimédias récupérés. La taille ici est la taille totale qui sera obtenue."
+
+#: includes/dashboard/chapter/what_backed_up.php:22
+msgid "Enter the paths to the files you want to exclude from your backup (one per line)."
+msgstr "Saisir les chemins d’accès aux fichiers à exclure de la sauvegarde (un par ligne)."
+
+#: includes/dashboard/chapter/what_backed_up.php:23
+msgid "Enter the paths to the directories/folders you want to exclude from your backup (one per line)."
+msgstr "Saisir les chemins d’accès aux répertoires à exclure de la sauvegarde (un par ligne)."
+
+#: includes/dashboard/chapter/what_backed_up.php:47
+msgid "Here you can define what exactly will be included in the backup. If your site is very large it may make sense to only backup certain parts of it."
+msgstr "Ici, vous pouvez choisir ce qui sera inclus dans la sauvegarde. Si le site est très volumineux, il peut être judicieux de ne sauvegarder que certaines parties de celui-ci."
+
+#: includes/dashboard/chapter/what_backed_up.php:68
+msgid "Select which files you want to have backed up."
+msgstr "Choisir les fichiers à sauvegarder."
+
+#: includes/dashboard/chapter/what_backed_up.php:132
+msgid "Everything else in wp-content"
+msgstr "Tout ce qui est dans wp-content"
+
+#: includes/dashboard/chapter/what_backed_up.php:151
+msgid "WordPress installation"
+msgstr "Installation WordPress"
+
+#: includes/dashboard/chapter/what_backed_up.php:168
+msgid "Want to exclude files based on filters?"
+msgstr "Voulez-vous exclure des fichiers avec des filtres ?"
+
+#: includes/dashboard/chapter/what_backed_up.php:193
+#: includes/dashboard/chapter/what_backed_up.php:208
+#: includes/dashboard/chapter/what_backed_up.php:233
+#: includes/dashboard/chapter/what_backed_up.php:258
+msgid "Exclude by"
+msgstr "Exclure par"
+
+#: includes/dashboard/chapter/what_backed_up.php:198
+msgid "Do not backup files which are larger than"
+msgstr "Ne pas sauvegarder les fichiers avec une taille supérieure à"
+
+#: includes/dashboard/chapter/what_backed_up.php:219
+msgid "File names include the extension, e.g. if you select to exclude all files which end with “.psd” at the end then all files in psd format will be excluded."
+msgstr "Les noms de fichiers incluent l’extension, par exemple si vous choisissez d’exclure tous les fichiers qui se terminent par « .psd » à la fin, tous les fichiers au format psd seront exclus."
+
+#: includes/dashboard/chapter/what_backed_up.php:223
+msgid "The folder where backups are stored (i.e. the backups which this plugin creates) is always excluded, to prevent you from taking backups of your own backups."
+msgstr "Le dossier dans lequel les sauvegardes sont stockées (es sauvegardes créées par l’extension) est toujours exclu, pour empêcher de faire des sauvegardes des sauvegardes."
+
+#: includes/dashboard/chapter/what_backed_up.php:233
+msgid "file path"
+msgstr "chemin d’accès du fichier"
+
+#: includes/dashboard/chapter/what_backed_up.php:258
+msgid "directory path"
+msgstr "chemin du répertoire"
+
+#: includes/dashboard/chapter/what_backed_up.php:301
+msgid "All databases (on the domain"
+msgstr "Toutes les bases de données (sur le domaine)"
+
+#: includes/dashboard/chapter/what_backed_up.php:301
+msgid "will be backed up unless you exclude them by defining exclusion rules."
+msgstr "seront sauvegardés sauf si vous les excluez en définissant des règles d’exclusion."
+
+#: includes/dashboard/chapter/what_backed_up.php:312
+#: includes/dashboard/translations.php:13
+msgid "Exclude certain tables from backups"
+msgstr "Exclure certaines tables des sauvegardes"
+
+#: includes/dashboard/chapter/what_backed_up.php:326
+msgid "Want to apply \"smart\" exclusions rules?"
+msgstr "Vous voulez appliquer des règles d’exclusions « intelligentes » ?"
+
+#: includes/dashboard/chapter/what_backed_up.php:349
+msgid "With the \"Files\" and \"Databases\" options above you can already define what to include or exclude in your backup. However, you may want to exclude elements in your backups where you are not sure in which file or table they reside. For example, you may want to exclude all spam comments in your backups. This is what the \"smart\" exclusion rules are for. This is also a good way to clean your site of things you do not want."
+msgstr "Avec les options « Fichiers » et « Bases de données » ci-dessus, il est possible de définir ce qu’il faut inclure ou exclure dans la sauvegarde. Cependant, on peut vouloir exclure des éléments des sauvegardes pour lesquels on ne sait pas dans quel fichier ou table ils résident. Ex. : pour exclure tous les commentaires indésirables des sauvegardes. Les règles d’exclusion « intelligentes » servent à ça. C’est aussi un bon moyen de nettoyer le site de choses superflues."
+
+#: includes/dashboard/chapter/what_backed_up.php:359
+msgid "spam comments"
+msgstr "commentaires indésirables"
+
+#: includes/dashboard/chapter/what_backed_up.php:363
+#: includes/dashboard/chapter/what_backed_up.php:367
+#: includes/dashboard/chapter/what_backed_up.php:371
+#: includes/dashboard/chapter/what_backed_up.php:379
+msgid "Exclude all"
+msgstr "Tout exclure"
+
+#: includes/dashboard/chapter/what_backed_up.php:363
+msgid "cache files"
+msgstr "fichiers cache"
+
+#: includes/dashboard/chapter/what_backed_up.php:367
+msgid "deactivated plugins"
+msgstr "extensions désactivées"
+
+#: includes/dashboard/chapter/what_backed_up.php:371
+msgid "debug logs"
+msgstr "journaux de débogage"
+
+#: includes/dashboard/chapter/what_backed_up.php:375
+msgid "all non-used themes"
+msgstr "tous les thèmes non utilisés"
+
+#: includes/dashboard/chapter/what_backed_up.php:383
+msgid "post revisions"
+msgstr "révisions des publications"
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "With above exclusion rules you excluded"
+msgstr "Avec des règles d’exclusion ci-dessus, vous avez exclu"
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "of data, which means your backup will be about"
+msgstr "de données, ce qui signifie que votre sauvegarde portera sur"
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "large, unzipped."
+msgstr "lourd, décompressé."
+
+#: includes/dashboard/chapter/what_backed_up.php:398
+msgid "See the list of files you excluded."
+msgstr "Consulter la liste des fichiers exclus."
+
+#: includes/dashboard/chapter/where_config.php:17
+msgid "Select all the storage options you want to use:"
+msgstr "Choisir toutes les options de stockage à utiliser :"
+
+#: includes/dashboard/chapter/where_config.php:44
+msgid "Backup directory path:"
+msgstr "Chemin du répertoire de sauvegarde :"
+
+#: includes/dashboard/chapter/where_config.php:46
+msgid "Enter directory path"
+msgstr "Saisir le chemin du répertoire"
+
+#: includes/dashboard/chapter/where_config.php:50
+msgid "That’s where your local backups will be stored. If you picked external storage this folder will also be used (to store your backup temporarily, until it is uploaded to the external storage)."
+msgstr "C’est là que les sauvegardes locales seront stockées. Si vous choisissez un stockage externe, ce dossier sera également utilisé (pour stocker votre sauvegarde temporairement, jusqu’à ce qu’elle soit téléchargée sur le stockage externe)."
+
+#: includes/dashboard/chapter/where_config.php:55
+msgid "Accessible via direct link?"
+msgstr "Accessible via un lien direct ?"
+
+#: includes/dashboard/chapter/where_config.php:76
+msgid "Select “Yes” if you want your (manually created) backups to be available via a direct link. This makes migration from one site to another super-fast."
+msgstr "Choisir « Oui » pour que les sauvegardes (créées manuellement) soient disponibles via un lien direct. Cela permet une migration d’un site à un autre très simple."
+
+#: includes/dashboard/modals/backup-error-modal.php:31
+msgid "There were some hick-ups..."
+msgstr "Il y a eu un hoquet…"
+
+#: includes/dashboard/modals/backup-success-modal.php:100
+msgid "Download logs"
+msgstr "Journaux de téléchargements"
+
+#: includes/dashboard/modals/after-logs-sent.php:60
+msgid "Go to Support Forum"
+msgstr "Aller au forum de support"
+
+#: includes/dashboard/modals/backup-progress-modal.php:29
+msgid "Show live log"
+msgstr "Afficher le journal en direct"
+
+#: includes/dashboard/modals/backup-progress-modal.php:30
+#: includes/dashboard/modals/backup-progress-modal.php:33
+msgid "Hide live log"
+msgstr "Masquer le journal en direct"
+
+#: includes/dashboard/modals/backup-progress-modal.php:37
+msgid "Preparing backup process..."
+msgstr "Préparation de la procédure de sauvegarde…"
+
+#: includes/dashboard/modals/backup-progress-modal.php:56
+msgid "Please don’t do any major modifications on your site while the backup is running."
+msgstr "Ne pas effectuer de modifications majeures sur le site pendant l’exécution de la sauvegarde."
+
+#: includes/dashboard/modals/backup-progress-modal.php:64
+msgid "Minimize this window"
+msgstr "Réduire la fenêtre"
+
+#: includes/dashboard/modals/backup-progress-modal.php:69
+msgid "Stop the backup process"
+msgstr "Arrêter la procédure de sauvegarde"
+
+#: includes/dashboard/modals/backup-success-modal.php:19
+msgid "Backup successful!"
+msgstr "Sauvegarde bien terminée !"
+
+#: includes/dashboard/modals/backup-success-modal.php:28
+msgid "Your backup is now accessible at:"
+msgstr "Votre sauvegarde est maintenant accessible à :"
+
+#: includes/dashboard/modals/backup-success-modal.php:44
+#: includes/dashboard/modals/backup-success-modal.php:81
+msgid "Manage & Restore Backups"
+msgstr "Gérer et restaurer les sauvegardes"
+
+#: includes/dashboard/modals/backup-success-modal.php:45
+msgid "- tab, and paste the link there."
+msgstr ", et coller le lien."
+
+#: includes/dashboard/modals/backup-success-modal.php:80
+msgid "You can manage the backup on the"
+msgstr "Vous pouvez gérer la sauvegarde sur le"
+
+#: includes/dashboard/modals/backup-success-modal.php:82
+msgid "- tab."
+msgstr "."
+
+#: includes/dashboard/modals/bfs-modal.php:33
+msgid "For large sites (above %sGB) we point you to the premium plugin, because:"
+msgstr "Pour les grands sites (au-dessus de %s Go), orientez-vous vers l’extension Premium, car :"
+
+#: includes/dashboard/modals/bfs-modal.php:38
+msgid "Big sites tend to be more support heavy"
+msgstr "Les grands sites ont tendance à être plus lourds"
+
+#: includes/dashboard/modals/bfs-modal.php:39
+msgid "We also need to buy food"
+msgstr "Nous devons également acheter de la nourriture"
+
+#: includes/dashboard/modals/bfs-modal.php:40
+msgid "The plugin offers many features for free which other plugins don’t"
+msgstr "L’extension offre des fonctionnalités gratuites que d’autres extensions ne font pas"
+
+#: includes/dashboard/modals/bfs-modal.php:49
+msgid "Yes, that’s fair…"
+msgstr "Oui, c’est juste…"
+
+#: includes/dashboard/modals/bfs-modal.php:50
+msgid "Get premium"
+msgstr "Obtenez Premium"
+
+#: includes/dashboard/modals/bfs-modal.php:66
+msgid "exclude parts from backup"
+msgstr "exclure des pièces de la sauvegarde"
+
+#: includes/dashboard/modals/bfs-modal.php:69
+msgid "which makes it smaller so that you stay below this limit."
+msgstr "ce qui la rend plus petite pour rester en dessous de cette limite."
+
+#: includes/dashboard/modals/delete-confirm-modal.php:23
+msgid "delete this backup?"
+msgstr "supprimer cette sauvegarde ?"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:30
+msgid "backup?"
+msgstr "sauvegarde ?"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:31
+msgid "backups?"
+msgstr "sauvegardes ?"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:62
+#: includes/dashboard/modals/staging-delete-confirm-modal.php:32
+msgid "Yes, kill it!"
+msgstr "Oui, la supprimer !"
+
+#: includes/dashboard/modals/pre-restore-modal.php:27
+msgid "All existing folders, files & databases on this site will be overwritten and destroyed for good. *"
+msgstr "Tous les répertoires, fichiers et bases de données existants sur ce site seront définitivement écrasés. *"
+
+#: includes/dashboard/modals/pre-restore-modal.php:36
+msgid "Yes, I understand that. I am sound in mind."
+msgstr "Oui, je comprends. J’en ais bien conscience."
+
+#: includes/dashboard/modals/pre-restore-modal.php:43
+msgid "Start restoring!"
+msgstr "Démarrer la restauration !"
+
+#: includes/dashboard/modals/pre-restore-modal.php:57
+msgid "Close window & do not restore"
+msgstr "Fermer la fenêtre et ne pas restaurer"
+
+#: includes/dashboard/modals/pre-restore-modal.php:61
+msgid "* Only those folders, files & database will be replaced which also exist in the backup file."
+msgstr "* Seuls ces dossiers, fichiers et bases de données seront remplacés si ils existent également dans le fichier de sauvegarde."
+
+#: includes/dashboard/modals/prenotice-modal.php:17
+msgid "We noticed:"
+msgstr "Informations :"
+
+#: includes/dashboard/modals/prenotice-modal.php:22
+msgid "You running quite low on space. Maybe it would be good to clear up some space before you do the backup."
+msgstr "Vous manquez d’espace. Il serait peut-être bon de libérer de l’espace avant de faire la sauvegarde."
+
+#: includes/dashboard/modals/prenotice-modal.php:27
+msgid "You may not have enough memory (RAM) to create the backup. You can still try, if it fails check out the troubleshooting section."
+msgstr "Vous n’avez peut-être pas assez de mémoire (RAM) pour créer la sauvegarde. Vous pouvez toujours essayer, si cela échoue, consultez la section de dépannage."
+
+#: includes/dashboard/modals/prenotice-modal.php:38
+msgid "You selected to only back up part of your site (not a complete backup)."
+msgstr "Vous avez choisi de ne sauvegarder qu’une portion du site (pas une sauvegarde complète)."
+
+#: includes/dashboard/modals/prenotice-modal.php:43
+msgid "You selected only files for backup - without database."
+msgstr "Vous avez choisi de sauvegarder les fichiers de site seulement - Sans la base de données."
+
+#: includes/dashboard/modals/prenotice-modal.php:48
+msgid "You selected only database to backup - without website files."
+msgstr "Vous avez choisi de sauvegarder la base de données seulement - Sans les fichiers de site."
+
+#: includes/dashboard/modals/prenotice-modal.php:57
+#: includes/dashboard/modals/staging-prenotice-modal.php:46
+msgid "That’s all fine / I don’t care…"
+msgstr "C’est très bien…"
+
+#: includes/dashboard/modals/prenotice-modal.php:58
+msgid "Create the backup!"
+msgstr "Créer la sauvegarde !"
+
+#: includes/dashboard/modals/reset-confirm-modal.php:21
+msgid "Do you really want to reset the configuration?"
+msgstr "Confirmez-vous la réinitialisation de la configuration ?"
+
+#: includes/dashboard/modals/reset-confirm-modal.php:29
+msgid "Yes, reset"
+msgstr "Oui, réinitialiser"
+
+#: includes/dashboard/modals/restore-progress-modal.php:16
+msgid "Restoring in progress"
+msgstr "Restauration en cours"
+
+#: includes/dashboard/modals/restore-progress-modal.php:20
+msgid "Do not close this window as long as the restoring process is ongoing"
+msgstr "Ne pas fermer la fenêtre tant que la procédure est en cours"
+
+#: includes/dashboard/modals/restore-progress-modal.php:36
+#: includes/dashboard/translations.php:63
+msgid "Preparing restore process..."
+msgstr "Préparation de la procédure de restauration…"
+
+#: includes/dashboard/modals/restore-success-modal.php:20
+msgid "Liked how easy it was? Then PLEASE support the further"
+msgstr "Vous avez aimé la facilité d’usage ? Merci de soutenir la suite"
+
+#: includes/dashboard/modals/restore-success-modal.php:21
+msgid "development of our plugins by doing the following:"
+msgstr "développement de nos extensions en procédant comme suit :"
+
+#: includes/dashboard/modals/restore-success-modal.php:33
+msgid "Give us a nice rating"
+msgstr "Donnez-nous une belle note"
+
+#: includes/dashboard/modals/restore-success-modal.php:34
+msgid "…so that others discover our"
+msgstr "… pour que les autres découvrent notre"
+
+#: includes/dashboard/modals/restore-success-modal.php:35
+msgid "plugin & benefit from it too."
+msgstr "extension et profitez-en aussi."
+
+#: includes/dashboard/modals/restore-success-modal.php:47
+msgid "Get our Premium plugin"
+msgstr "Obtenez l’extension Premium"
+
+#: includes/dashboard/modals/restore-success-modal.php:48
+msgid "…to benefit from many cool features & support."
+msgstr "… pour bénéficier de fonctionnalités intéressantes et du support."
+
+#: includes/dashboard/modals/restore-success-modal.php:88
+msgid "Thank you!!"
+msgstr "Merci beaucoup !"
+
+#: includes/dashboard/modals/restore-success-modal.php:93
+#: includes/dashboard/modals/upload-exist-file-modal.php:34
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:32
+#: includes/dashboard/modals/upload-success-modal.php:32
+#: includes/dashboard/modals/upload-wrong-file-modal.php:32
+msgid "Ok, close"
+msgstr "Ok, fermer"
+
+#: includes/dashboard/modals/restore-success-modal.php:99
+msgid "Download the log"
+msgstr "Télécharger le journal"
+
+#: includes/dashboard/modals/restore-success-modal.php:99
+msgid "of the restoration process"
+msgstr "de la procédure de restauration"
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:21
+msgid "File already exist"
+msgstr "Le fichier existe déjà"
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:26
+msgid "The file you tried to upload already match,"
+msgstr "Le fichier que vous avez essayé de téléversé existe déjà,"
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:27
+msgid "name and size of file which already,"
+msgstr "nom et taille du fichier qui déjà,"
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:28
+msgid "exist in your backup directory."
+msgstr "existe dans le répertoire de sauvegarde."
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:29
+msgid "If you wish to have duplicate change name of the upload."
+msgstr "Pour obtenir un double, changer le nom du téléversement."
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:21
+msgid "Invalid backup"
+msgstr "Sauvegarde non valide"
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:26
+msgid "Uploaded file is not valid backup,"
+msgstr "Le fichier téléversé n’est pas une sauvegarde valide,"
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:27
+msgid "we removed the file from the server."
+msgstr "nous avons supprimé le fichier du serveur."
+
+#: includes/dashboard/modals/upload-success-modal.php:21
+msgid "Upload successful!"
+msgstr "Téléversement bien terminé !"
+
+#: includes/dashboard/modals/upload-success-modal.php:26
+msgid "We also triggered a rescan of your local folder automatically,"
+msgstr "Nous avons également déclenché une nouvelle analyse de votre dossier local automatiquement,"
+
+#: includes/dashboard/modals/upload-success-modal.php:27
+msgid "so that the file will show up in your list of backups."
+msgstr "afin que le fichier apparaisse dans la liste des sauvegardes."
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:21
+msgid "Not right file type"
+msgstr "Pas le bon type de fichier"
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:26
+msgid "The file you tried to upload isn’t a zip-file."
+msgstr "Le fichier que vous avez essayé de téléverser n’est pas un fichier zip."
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:27
+msgid "All backup files are saved as zip."
+msgstr "Tous les fichiers de sauvegarde sont enregistrés au format .zip."
+
+#: includes/dashboard/modules/backup-ongoing.php:27
+msgid "Click to see status quo"
+msgstr "Cliquer pour voir le statu quo"
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "nd"
+msgstr " "
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "rd"
+msgstr " "
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "th"
+msgstr " "
+
+#: includes/dashboard/modules/backup_controller.php:56
+msgid "... or have"
+msgstr "… ou faire"
+
+#: includes/dashboard/modules/backup_controller.php:57
+msgid "backups created automatically"
+msgstr "des sauvegardes automatiquement"
+
+#: includes/dashboard/modules/backup_controller.php:89
+msgid "Create a backup every"
+msgstr "Créez une sauvegarde chaque"
+
+#: includes/dashboard/modules/backup_controller.php:97
+msgid "on"
+msgstr " "
+
+#: includes/dashboard/modules/backup_controller.php:115
+msgid "Sunday"
+msgstr "Samedi"
+
+#: includes/dashboard/modules/backup_controller.php:127
+msgid "hours and"
+msgstr "heure et"
+
+#: includes/dashboard/modules/backup_controller.php:147
+msgid "...and keep the last"
+msgstr "… et garder"
+
+#: includes/dashboard/modules/backup_controller.php:157
+msgid "backups that have been created automatically."
+msgstr "sauvegarde(s) déjà créée(s) automatiquement."
+
+#: includes/dashboard/modules/backup_controller.php:176
+msgid "Above times are"
+msgstr "Les temps ci-dessus sont"
+
+#: includes/dashboard/modules/backup_controller.php:177
+msgid "server times"
+msgstr "heure de serveur"
+
+#: includes/dashboard/modules/backup_controller.php:181
+msgid "There needs to be"
+msgstr "Il doit y avoir"
+
+#: includes/dashboard/modules/backup_controller.php:182
+msgid "at least one visitor"
+msgstr "au moins un visiteur"
+
+#: includes/dashboard/modules/backup_controller.php:186
+msgid "We suggest to"
+msgstr "Nous suggérons de"
+
+#: includes/dashboard/modules/backup_controller.php:187
+msgid "only keep 2 or 3 backups"
+msgstr "ne conserver que 2 ou 3 sauvegardes"
+
+#: includes/dashboard/modules/backup_controller.php:188
+msgid "otherwise you may run out of space."
+msgstr "sinon, vous risquez de manquer d’espace."
+
+#: includes/dashboard/modules/backup_controller.php:191
+msgid "Locked backups will <u>not</u> be deleted"
+msgstr "Les sauvegardes verrouillées ne seront <u>pas</u> supprimées"
+
+#: includes/dashboard/modules/backup_controller.php:192
+msgid "automatically. Those are indicated by a lock sign"
+msgstr "automatiquement. Ceux-ci sont indiqués par un signe de verrouillage"
+
+#: includes/dashboard/modules/backup_controller.php:195
+msgid "You can change their lock status on the"
+msgstr "Vous pouvez modifier leur état de verrouillage sur le"
+
+#: includes/dashboard/modules/backup_controller.php:196
+#: includes/dashboard/settings.php:57
+msgid "Manage & Restore Backup(s)"
+msgstr "Gérer et restaurer des sauvegardes"
+
+#: includes/dashboard/modules/backup_controller.php:197
+msgid "tab"
+msgstr "tabulation"
+
+#: includes/dashboard/modules/backup_controller.php:201
+msgid "other triggers"
+msgstr "autres déclencheurs"
+
+#: includes/dashboard/modules/backup_controller.php:202
+msgid "when your backups are created, please go"
+msgstr "lorsque vos sauvegardes sont créées, veuillez aller"
+
+#: includes/dashboard/modules/backups-table-header.php:15
+msgid "When your backup was created, in server time"
+msgstr "Lorsque la sauvegarde a été créée, à l’heure du serveur"
+
+#: includes/dashboard/modules/backups-table-header.php:16
+msgid "Backup date"
+msgstr "Date de la sauvegarde"
+
+#: includes/dashboard/modules/backups-table-header.php:26
+msgid "Size of your backup file"
+msgstr "Taille de votre fichier de sauvegarde"
+
+#: includes/dashboard/modules/backups-table-header.php:36
+msgid "Locked backups can only be deleted manually. Unlocked backups get deleted automatically according to the deletion processes which you defined at the top of the &quot;Create backups&quot; - tab. Click on the icon(s) to change the lock status."
+msgstr "Les sauvegardes verrouillées peuvent être supprimées manuellement. Les sauvegardes déverrouillées sont supprimées automatiquement selon les procédures de suppression définis en haut de la section « Créer des sauvegardes ». Cliquer sur les icônes pour modifier l’état de verrouillage."
+
+#: includes/dashboard/modules/backups-table-header.php:41
+msgid "Move over the icons to see what you can do with the backup(s)"
+msgstr "Survoler les icônes pour voir quoi faire avec la ou les sauvegardes"
+
+#: includes/dashboard/modules/backups-under-table.php:28
+msgid "Rescan for backup files:"
+msgstr "Refaire l’analyse des fichiers de sauvegarde :"
+
+#: includes/dashboard/modules/backups-under-table.php:30
+msgid "Remotely"
+msgstr "A distance"
+
+#: includes/dashboard/modules/backups-under-table.php:38
+msgid "Delete all selected backups"
+msgstr "Supprimer toutes les sauvegardes sélectionnées"
+
+#: includes/dashboard/modules/backups-under-table.php:48
+msgid "Drag & drop your backup file here"
+msgstr "Glisser/déposer le fichier de sauvegarde ici"
+
+#: includes/dashboard/modules/backups-under-table.php:52
+msgid "...or"
+msgstr "... ou"
+
+#: includes/dashboard/modules/backups-under-table.php:56
+msgid "Browse for file"
+msgstr "Rechercher un fichier"
+
+#: includes/dashboard/modules/backups-under-table.php:84
+msgid "Alternatively, you can place the files (e.g. via FTP) into your local backup directory"
+msgstr "Vous pouvez également placer les fichiers (par exemple via FTP) dans votre répertoire de sauvegarde local"
+
+#: includes/dashboard/modules/email-errors.php:18
+msgid "We have some notices regarding most recent automated backup."
+msgstr "Nous avons quelques avis concernant la sauvegarde automatisée la plus récente."
+
+#: includes/dashboard/modules/email-errors.php:21
+#: includes/dashboard/modules/email-errors.php:22
+#: includes/dashboard/modules/quota-errors.php:21
+#: includes/dashboard/modules/quota-errors.php:22
+msgid "Expand"
+msgstr "Étendre"
+
+#: includes/dashboard/modules/email-errors.php:25
+msgid "Dismiss"
+msgstr "Rejeter"
+
+#: includes/dashboard/modules/super-quick-migration.php:12
+msgid "Super-quick migration"
+msgstr "Migration super rapide"
+
+#: includes/dashboard/modules/super-quick-migration.php:18
+msgid "Paste here the url you got after creating a backup:"
+msgstr "Coller ici l’URL obtenue après avoir créé une sauvegarde :"
+
+#: includes/dashboard/modules/super-quick-migration.php:21
+msgid "E.g."
+msgstr "Ex."
+
+#: includes/dashboard/modules/super-quick-migration.php:27
+msgid "Restore now!"
+msgstr "Restaurer maintenant !"
+
+#: includes/dashboard/settings.php:47
+msgid "Create backup(s)"
+msgstr "Créer des sauvegardes(s)"
+
+#: includes/dashboard/settings.php:78
+msgid "+ Add / manage configuration set(s)​"
+msgstr "+ Ajouter ou gérer les ensembles de configuration"
+
+#: includes/dashboard/settings.php:86
+msgid "What"
+msgstr "Que"
+
+#: includes/dashboard/settings.php:98 includes/dashboard/settings.php:110
+msgid "shall the backup(s) be stored?"
+msgstr "les sauvegardes doivent-elles être stockées ?"
+
+#: includes/dashboard/settings.php:158
+msgid "Your saved backups:"
+msgstr "Vos sauvegardes enregistrées :"
+
+#: includes/dashboard/settings.php:194 includes/dashboard/settings.php:196
+msgid "You have not created any backups yet."
+msgstr "Vous n’avez pas encore créé de sauvegardes."
+
+#: includes/dashboard/templates/backup-row-template.php:57
+msgid "Lock backup files"
+msgstr "Verrouiller les fichiers de sauvegarde"
+
+#: includes/dashboard/templates/backup-row-template.php:58
+msgid "Unlock backup files"
+msgstr "Déverrouiller les fichiers de sauvegarde"
+
+#: includes/dashboard/templates/backup-row-template.php:64
+msgid "Download the backup file. Click on it downloads it"
+msgstr "Télécharger le fichier de sauvegarde. Cliquer dessus pour le télécharger"
+
+#: includes/dashboard/templates/backup-row-template.php:66
+msgid "Copy link to backup file for super-quick migration"
+msgstr "Copiez le lien vers le fichier de sauvegarde pour une migration rapide"
+
+#: includes/dashboard/templates/backup-row-template.php:68
+msgid "Download log file which was created at time of backup"
+msgstr "Télécharger le fichier journal généré lors de la sauvegarde"
+
+#: includes/dashboard/templates/backup-row-template.php:77
+msgid "Restore this backup on this site"
+msgstr "Restaurer cette sauvegarde sur ce site"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:14
+msgid "Exclude if string"
+msgstr "Exclure si la chaîne"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:16
+msgid "appears"
+msgstr "apparaît"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:19
+msgid "anywhere in"
+msgstr "n’importe où dans"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:20
+msgid "at the beginning of"
+msgstr "au début de"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:28
+msgid "folder name"
+msgstr "nom du dossier"
+
+#: includes/dashboard/translations.php:42
+msgid "Text copied successfully"
+msgstr "Texte bien copié"
+
+#: includes/dashboard/translations.php:48
+msgid "Your browser does not support copying, please copy by hand"
+msgstr "Votre navigateur ne prend pas en charge la copie, veuillez copier à la main"
+
+#: includes/dashboard/translations.php:51
+msgid "Backup will be aborted in few seconds."
+msgstr "La sauvegarde sera abandonnée dans quelques secondes."
+
+#: includes/dashboard/translations.php:60
+msgid "Downloading backup file..."
+msgstr "Téléchargement du fichiers de sauvegarde…"
+
+#: includes/dashboard/translations.php:66
+msgid "You have to confirm that you understand the risk."
+msgstr "Vous devez confirmer que vous comprenez le risque."
+
+#: includes/dashboard/translations.php:69
+msgid "File upload started."
+msgstr "Téléversement du fichier commencé."
+
+#: includes/dashboard/translations.php:72
+msgid "There was an error during file upload."
+msgstr "Une erreur est survenue lors du téléversement du fichier."
+
+#: includes/dashboard/translations.php:75
+msgid "File has been uploaded successfully."
+msgstr "Le fichier a été chargé avec succès."
+
+#: includes/dashboard/translations.php:78
+msgid "File has wrong type."
+msgstr "Le type de fichier est incorrect."
+
+#: includes/dashboard/translations.php:81
+msgid "File already exist in backup directory."
+msgstr "Le fichier existe déjà dans le répertoire de sauvegarde."
+
+#: includes/dashboard/translations.php:84
+msgid "Backup(s) removed successfully."
+msgstr "Sauvegarde(s) bien supprimée(s)."
+
+#: includes/dashboard/translations.php:87
+msgid "Cannot remove backup(s) file(s) due to unknown error."
+msgstr "Impossible de supprimer le(s) fichier(s) de sauvegarde en raison d’une erreur inconnue."
+
+#: includes/dashboard/translations.php:90
+msgid "Configuration saved successfully."
+msgstr "Configuration bien enregistrée."
+
+#: includes/dashboard/translations.php:93
+msgid "There was an issue during saving, some settings may stay unchanged."
+msgstr "Un problème est survenu lors de l’enregistrement, certains réglages peuvent rester inchangés."
+
+#: includes/dashboard/translations.php:96
+msgid "Could not find this backup, it may be deleted or there was an error with getting the name."
+msgstr "Impossible de trouver cette sauvegarde, elle a peut-être été supprimée ou une erreur s’est produite lors de l’obtention du nom."
+
+#: includes/dashboard/translations.php:99
+msgid "File unlocked successfully."
+msgstr "Fichier bien déverrouillé."
+
+#: includes/dashboard/translations.php:102
+msgid "Could not unlock this backup due to unknown error, please reload and try again."
+msgstr "Impossible de déverrouiller cette sauvegarde en raison d’une erreur inconnue, recharger et réessayer."
+
+#: includes/dashboard/translations.php:105
+msgid "File locked successfully."
+msgstr "Fichier bien verrouillé."
+
+#: includes/dashboard/translations.php:108
+msgid "Could not lock this backup due to unknown error, please reload and try again."
+msgstr "Impossible de verrouiller cette sauvegarde en raison d’une erreur inconnue, recharger et réessayer."
+
+#: includes/dashboard/translations.php:111
+msgid "Download process should start."
+msgstr "La procédure de téléchargement devrait démarrer."
+
+#: includes/dashboard/translations.php:117
+msgid "There is nothing to backup. Please select database and / or files to backup."
+msgstr "Il n’y a rien à sauvegarder. Choisir la base de données et/ou les fichiers à sauvegarder."
+
+#: includes/dashboard/translations.php:120
+msgid "The URL you provided does not seems to be correct."
+msgstr "L’URL saisie ne semble pas correcte."
+
+#: includes/dashboard/translations.php:123
+msgid "Backup process ended, we triggered backup list reload for your."
+msgstr "La procédure de sauvegarde est terminée, rechargement de la liste des sauvegardes."
+
+#: includes/dashboard/translations.php:135
+msgid "Could not update CRON setting now, please check the logs."
+msgstr "Impossible de mettre à jour le réglage CRON maintenant, vérifier les journaux."
+
+#: includes/database/manager.php:286
+msgid "Importing finished. Now, Delete the import file."
+msgstr "Importation terminée. Supprimer le fichier d’importation."
+
+#: includes/extracter/extract.php:1295
+msgid "Making temporary directory"
+msgstr "Faire un répertoire temporaire"
+
+#: includes/ajax.php:431 includes/extracter/extract.php:371
+msgid "Removing "
+msgstr "Suppression"
+
+#: includes/extracter/extract.php:1393
+msgid "Scanning archive..."
+msgstr "Analyse de l’archive…"
+
+#: includes/extracter/extract.php:752
+msgid "Saving wp-config file..."
+msgstr "Enregistrement du fichier wp-config…"
+
+#: includes/extracter/extract.php:756
+msgid "File wp-config saved"
+msgstr "Fichier wp-config enregistré"
+
+#: includes/extracter/extract.php:766
+msgid "Getting backup manifest..."
+msgstr "Obtention du manifeste de sauvegarde…"
+
+#: includes/extracter/extract.php:1208
+msgid "Making new login session"
+msgstr "Faire une nouvelle session de connexion"
+
+#: includes/extracter/extract.php:1237
+msgid "User should be logged in"
+msgstr "L’utilisateur doit être connecté"
+
+#: includes/extracter/extract.php:1273
+msgid "Temporary files cleaned"
+msgstr "Fichiers temporaires nettoyés"
+
+#: includes/extracter/extract.php:1283
+msgid "Something bad happened..."
+msgstr "Une erreur est survenue…"
+
+#: includes/dashboard/chapter/store_config.php:156
+msgid "chapter."
+msgstr "chapitre."
+
+#: includes/ajax.php:1848
+msgid "Your email title is too long, please change the title (max 64 chars)."
+msgstr "Le titre de l’e-mail est trop long, veuillez utiliser modifier le titre (maximum 64 caractères)."
+
+#: includes/ajax.php:1849
+msgid "Your email title is too short, please use longer one (at least 3 chars)."
+msgstr "Le titre de l’e-mail est trop court, veuillez en utiliser un plus long (au moins 3 caractères)."
+
+#: includes/ajax.php:1850
+msgid "Title field is required, please fill it."
+msgstr "Le champ « Titre » est nécessaire, veuillez le remplir."
+
+#: includes/ajax.php:1851
+msgid "Email field cannot be empty, please fill it."
+msgstr "Le champ « e-mail » est nécessaire, veuillez le remplir."
+
+#: includes/ajax.php:2010
+msgid "Name is required, please fill the input."
+msgstr "Le nom est nécessaire, veuillez remplir la case."
+
+#: includes/ajax.php:2011
+msgid "Your name is too long, please change the name."
+msgstr "Le nom est trop long, veuillez modifier le nom."
+
+#: includes/ajax.php:2012
+msgid "Your name is too short, please create longer one."
+msgstr "Le nom est trop court, veuillez en créer un plus long."
+
+#: includes/ajax.php:2013
+msgid "Please, do not use spaces in file name."
+msgstr "Veuillez ne pas utiliser d’espace dans le nom du fichier."
+
+#: includes/ajax.php:2014
+msgid "Your name contains character(s) that are not allowed in file names: "
+msgstr "Votre nom contient des caractères qui ne sont pas autorisés dans les noms de fichier : "
+
+#: includes/ajax.php:2464
+msgid "Removing file from backup (too large) "
+msgstr "Suppression du fichier de sauvegarde (trop grand) "
+
+#: includes/check/checker.php:56
+msgid "There is "
+msgstr "Il y a "
+
+#: includes/dashboard/chapter/other_config.php:12
+msgid "This will be triggered on plugin removal via WordPress plugins tab"
+msgstr "Cela sera déclenché lors de la suppression de l’extension via l’onglet « Extensions » de WordPress"
+
+#: includes/dashboard/chapter/other_config.php:56
+msgid "From field:"
+msgstr "Champ expéditeur/expéditrice :"
+
+#: includes/dashboard/chapter/other_config.php:63
+msgid "This will show up as sender of the emails"
+msgstr "Cela s’affichera comme expéditeur/expéditrice des e-mails"
+
+#: includes/dashboard/chapter/other_config.php:72
+msgid "You'll get an email if..."
+msgstr "Vous obtiendrez un e-mail si…"
+
+#: includes/dashboard/chapter/other_config.php:82
+msgid "Backups was created successfully"
+msgstr "La sauvegarde a bien été créée"
+
+#: includes/dashboard/chapter/other_config.php:117
+msgid "(Make sure that your hosting does not block mail functions, otherwise you have to configure SMTP mail.)"
+msgstr "(assurez-vous que votre hébergeur ne bloque pas les fonctions d’e-mail, sinon vous devrez configurer la messagerie SMTP.)"
+
+#: includes/dashboard/chapter/other_config.php:199
+msgid "Activate this so that a backup is created before there are automatic WordPress updates (WordPress core, plugins, themes, or language files)."
+msgstr "Activez cette option pour qu’une sauvegarde soit créée avant les mises à jour automatiques de WordPress (cœur de WordPress, extensions, thèmes ou fichiers de langue)."
+
+#: includes/dashboard/chapter/other_config.php:235
+msgid "Copy & paste this url into a browser and press enter to trigger the backup creation."
+msgstr "Copiez et collez cette URL dans un navigateur et appuyez sur « Entrée » pour déclencher la création de la sauvegarde."
+
+#: includes/dashboard/chapter/other_config.php:248
+msgid "Change the key (which is part of above url) if you suspect an unauthorized person got access to it."
+msgstr "Modifiez la clé (qui fait partie de l’URL ci-dessus) si vous pensez qu’une personne non autorisée y a accès."
+
+#: includes/dashboard/chapter/other_config.php:271
+msgid "If you selected the \"schedule backups\" - option at the top of the plugin, and backups are not created, then please check out the Cron settings. Or just  ask us in the forum."
+msgstr "Si l’option « Planifier les sauvegardes » est sélectionnée, en haut de l’extension, et que les sauvegardes ne sont pas créées, veuillez vérifier les réglages du Cron. Ou posez simplement une question sur le forum."
+
+#: includes/dashboard/chapter/other_config.php:501
+msgid "If you're looking for other options not listed above, check out the"
+msgstr "Si vous cherchez d’autres options non répertoriées ci-dessus, découvrez la"
+
+#: includes/dashboard/chapter/other_config.php:501
+#: includes/dashboard/chapter/troubleshooting.php:260
+msgid "chapter as they might be there."
+msgstr "chapitre comme ils pourraient y être."
+
+#: includes/dashboard/chapter/save-button.php:16
+#: includes/dashboard/chapter/troubleshooting.php:266
+msgid "Collapse this chapter"
+msgstr "Réduire cette section"
+
+#: includes/dashboard/chapter/store_config.php:18
+msgid "Your backup(s) will be given the following file name(s)"
+msgstr "Les sauvegardes recevront les noms de fichier suivants"
+
+#: includes/dashboard/chapter/store_config.php:24
+msgid "Huh? Explain this please"
+msgstr "Hein ? Veuillez expliquer ceci"
+
+#: includes/dashboard/chapter/what_backed_up.php:208
+msgid "file / folder name"
+msgstr "nom de fichier/dossier"
+
+#: includes/dashboard/chapter/what_backed_up.php:393
+msgid "Summary / Sanity check"
+msgstr "Résumé/contrôle d’intégrité"
+
+#: includes/dashboard/modals/bfs-modal.php:29
+msgid "Wow, your site is"
+msgstr "Hé, votre site est"
+
+#: includes/dashboard/modals/bfs-modal.php:29
+msgid "FAT!"
+msgstr "Lourd !"
+
+#: includes/dashboard/modals/bfs-modal.php:63
+msgid "Tip: You can also"
+msgstr "Astuce : vous pouvez également"
+
+#: includes/dashboard/modals/prenotice-modal.php:32
+msgid "Based on your selections "
+msgstr "Avec les réglages actuels"
+
+#: includes/dashboard/modals/prenotice-modal.php:33
+msgid " of data (unzipped) will be backed up."
+msgstr "de données (décompressées) seront sauvegardées."
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "st"
+msgstr " er"
+
+#: includes/dashboard/modules/backups-under-table.php:84
+msgid "or remote storage, and then use the \"Rescan for backup files\" - option above to make them show up in the list."
+msgstr "ou stockage à distance, puis utiliser l’option « Refaire l’analyse des fichiers de sauvegarde » ci-dessus pour les faire apparaître dans la liste."
+
+#: includes/dashboard/translations.php:126
+msgid "Current server time: "
+msgstr "Heure actuelle du serveur :"
+
+#: includes/dashboard/translations.php:129
+msgid "Next backup planned: "
+msgstr "Prochaine sauvegarde prévue :"
+
+#: includes/extracter/extract.php:1976
+msgid "Restore process took: "
+msgstr "La procédure de restauration a pris :"
+
+#: includes/dashboard/modules/backups-table-header.php:21
+msgid "The name of your backup. To see the logic which default names your backups get, go to chapter &quot;How backups will be stored&quot;"
+msgstr "Le nom de votre sauvegarde. Pour voir la logique des noms par défaut de vos sauvegardes, allez au chapitre &quot;Comment les sauvegardes seront stockées&quot;"
+
+#: includes/dashboard/modals/backup-success-modal.php:42
+msgid "To migrate your site, just copy above link, install %a1our plugin%a2 on the target site, go to the"
+msgstr "Pour migrer votre site, copiez simplement le lien ci-dessus, installez %a1notre plugin%a2 sur le site cible, rendez-vous sur"
+
+#: includes/dashboard/chapter/what_backed_up.php:24
+msgid "You can already exclude files based on filters (click on “Yes” below), however in the premium plugin you’ll also be able to browse through them."
+msgstr "Vous pouvez déjà exclure des fichiers en fonction de filtres (cliquez sur « Oui » ci-dessous), mais dans l‘extension premium, vous pourrez également les parcourir."
+
+#: includes/dashboard/settings.php:86
+msgid "will be backed up?​"
+msgstr "sera sauvegardé ?​ "
+
+#: includes/check/checker.php:53
+msgid "Disk free space function is not disabled - using it..."
+msgstr "La fonction d‘espace libre sur le disque n‘est pas désactivée - l‘utiliser..."
+
+#: includes/ajax.php:1554
+msgid "Error"
+msgstr "Erreur"
+
+#: includes/ajax.php:844 includes/ajax.php:861 includes/staging/local.php:508
+msgid " bytes"
+msgstr " octets"
+
+#: includes/ajax.php:431 includes/extracter/extract.php:371
+#: includes/zipper/src/zip.php:583
+msgid " files"
+msgstr " fichiers"
+
+#: includes/initializer.php:486
+msgid "Manage"
+msgstr "Gérer"
+
+#: includes/ajax.php:1590 includes/ajax.php:1597
+msgid "Error: "
+msgstr "Erreur : "
+
+#: includes/ajax.php:1275 includes/ajax.php:1296 includes/ajax.php:1326
+msgid "Aborting..."
+msgstr "Abandon…"
+
+#: includes/ajax.php:793
+msgid "Scanning files..."
+msgstr "Analyse des fichiers…"
+
+#: includes/progress/logger-only.php:40 includes/progress/zip.php:127
+msgid "Unable to open file!"
+msgstr "Impossible d’ouvrir le fichier !"
+
+#: includes/zipper/src/zip.php:346
+msgid "Compressing..."
+msgstr "Compression…"
+
+#: includes/zipper/zipping.php:24
+msgid "Found "
+msgstr "Trouvé(s) "
+
+#: includes/ajax.php:1616
+msgid "Backup does not exist under provided URL."
+msgstr "La sauvegarde n’existe pas sous l’URL fournie."
+
+#: includes/ajax.php:1610
+msgid "Backup is not available to download (Error 403)."
+msgstr "La sauvegarde n’est pas disponible au téléchargement (Erreur 403)."
+
+#: includes/ajax.php:879
+msgid "Backup initialized..."
+msgstr "Sauvegarde initialisée…"
+
+#: includes/ajax.php:875
+msgid " files..."
+msgstr " fichiers…"
+
+#: includes/zipper/zipping.php:24
+msgid " files to backup."
+msgstr " fichiers à sauvegarder."
+
+#: includes/initializer.php:569
+msgid "(server time)"
+msgstr "(heure du serveur)"
+
+#: includes/ajax.php:56
+msgid "Running POST Function: "
+msgstr "Exécution de la fonction POST :"
+
+#: includes/ajax.php:336 includes/ajax.php:811 includes/ajax.php:843
+#: includes/ajax.php:944 includes/ajax.php:993 includes/initializer.php:443
+msgid "Aborting backup..."
+msgstr "Abandon de la sauvegarde…"
+
+#: includes/ajax.php:483 includes/ajax.php:929 includes/ajax.php:1370
+#: includes/ajax.php:1374
+msgid "Backup process already running, please wait till it complete."
+msgstr "La procédure de sauvegarde est déjà en cours, merci d’attendre qu’il soit terminé."
+
+#: includes/ajax.php:508 includes/ajax.php:710
+msgid "Initializing backup..."
+msgstr "Initialisation de la sauvegarde…"
+
+#: includes/ajax.php:736
+msgid "Checking if backup dir is writable..."
+msgstr "Vérifier si le répertoire de sauvegarde est inscriptible…"
+
+#: includes/ajax.php:763
+msgid "Backup directory is not writable..."
+msgstr "Répertoire de sauvegarde non inscriptible…"
+
+#: includes/ajax.php:781
+msgid "Yup it is writable..."
+msgstr "Ouais c’est inscriptible…"
+
+#: includes/ajax.php:797
+msgid "Omitting files (due to settings)..."
+msgstr "Omettre des fichiers (en raison des réglages)…"
+
+#: includes/ajax.php:807
+msgid "Checking free space, reserving..."
+msgstr "Vérification de l’espace libre, réservation…"
+
+#: includes/ajax.php:812
+msgid "Site weights more than %s GB."
+msgstr "Le site pèse plus de %s Go."
+
+#: includes/ajax.php:880
+msgid "Initializing archiving system..."
+msgstr "Initialisation du système d’archivage…"
+
+#: includes/ajax.php:933
+msgid "Archive system initialized..."
+msgstr "Système d’archivage initialisé…"
+
+#: includes/ajax.php:670 includes/ajax.php:976 includes/ajax.php:981
+#: includes/ajax.php:984 includes/dashboard/translations.php:54
+msgid "Backup process aborted."
+msgstr "Procédure de sauvegarde interrompue."
+
+#: includes/ajax.php:994
+msgid "There is no backup file..."
+msgstr "Il n’y a pas de fichier de sauvegarde…"
+
+#: includes/ajax.php:995
+msgid "We could not find backup file when it already should be here."
+msgstr "Impossible de trouver le fichier de sauvegarde alors qu’il devrait être ici."
+
+#: includes/ajax.php:996
+msgid "This error may be related to missing space. (filled during backup)"
+msgstr "Cette erreur peut être liée à un espace manquant. (rempli lors de la sauvegarde)"
+
+#: includes/ajax.php:1484
+msgid "Download process is currently running, please wait till it complete."
+msgstr "La procédure de téléchargement est en cours, patienter jusqu’à ce qu’elle soit terminée."
+
+#: includes/ajax.php:1213
+msgid "Restore process responded"
+msgstr "La procédure de restauration a répondue"
+
+#: includes/ajax.php:1217
+msgid "Locking migration process"
+msgstr "Verrouillage du processus de migration"
+
+#: includes/ajax.php:515 includes/ajax.php:1221
+msgid "Initializing restore process"
+msgstr "Initialisation de la procédure de restauration"
+
+#: includes/ajax.php:1267
+msgid "Free space checking..."
+msgstr "Vérification de l’espace libre…"
+
+#: includes/ajax.php:1268
+msgid "Checking if there is enough amount of free space"
+msgstr "Vérifier s’il y a suffisamment d’espace libre"
+
+#: includes/ajax.php:1273 includes/ajax.php:1291
+msgid "Cannot start migration process"
+msgstr "Impossible de démarrer la procédure de migration"
+
+#: includes/ajax.php:1276 includes/ajax.php:1297 includes/ajax.php:1327
+#: includes/ajax.php:1342 includes/ajax.php:1543
+msgid "Unlocking migration"
+msgstr "Déverrouillage de la migration"
+
+#: includes/ajax.php:1293
+msgid "Error: Could not find manifest in backup, file may be broken"
+msgstr "Erreur : impossible de trouver le manifeste dans la sauvegarde, le fichier est peut-être endommagé"
+
+#: includes/ajax.php:1294
+msgid "Error: Btw. because of this I also cannot check free space"
+msgstr "Erreur : Btw. À cause de ça, impossible de vérifier l’espace libre aussi"
+
+#: includes/ajax.php:1340
+msgid "Restore process completed"
+msgstr "Procédure de restauration terminée"
+
+#: includes/ajax.php:1341
+msgid "Finalizing restored files"
+msgstr "Finalisation des fichiers restaurés"
+
+#: includes/ajax.php:1382
+msgid "Backup process completed or is not running."
+msgstr "La procédure de sauvegarde est terminée ou n’est pas en cours d’exécution."
+
+#: includes/ajax.php:1416
+msgid "Initializing restore process..."
+msgstr "Initialisation de la procédure de restauration…"
+
+#: includes/ajax.php:1535
+msgid "Creating lock file"
+msgstr "Créer un fichier verrouillé"
+
+#: includes/ajax.php:1537
+msgid "Initializing download process"
+msgstr "Initialisation de la procédure de téléchargement"
+
+#: includes/ajax.php:1539
+msgid "Downloading initialized"
+msgstr "Téléchargement initialisé"
+
+#: includes/ajax.php:1540
+msgid "Downloading remote file..."
+msgstr "Téléchargement du fichier distant…"
+
+#: includes/ajax.php:1547 includes/ajax.php:1591 includes/ajax.php:1598
+#: includes/ajax.php:1624
+msgid "Removing downloaded file"
+msgstr "Suppression du fichier téléchargé"
+
+#: includes/ajax.php:1549
+msgid "Download error"
+msgstr "Erreur de téléchargement"
+
+#: includes/ajax.php:1552
+msgid "Error: There is not enough space on the server"
+msgstr "Erreur : espace insuffisant sur le serveur"
+
+#: includes/ajax.php:1560
+msgid "Download completed (took: "
+msgstr "Téléchargement terminé (prend :"
+
+#: includes/ajax.php:1561
+msgid "Looking for backup manifest"
+msgstr "Recherche d’un manifeste de sauvegarde"
+
+#: includes/ajax.php:1577
+msgid "Requesting restore process"
+msgstr "Demande de procédure de restauration"
+
+#: includes/ajax.php:1611
+msgid "It is restricted by remote server configuration."
+msgstr "Il est limité par la configuration du serveur distant."
+
+#: includes/ajax.php:1613
+msgid "Backup is locked on remote site, please unlock remote downloading."
+msgstr "La sauvegarde est verrouillée sur le site distant, déverrouiller le téléchargement à distance."
+
+#: includes/ajax.php:1617
+msgid "Please confirm that you can download the backup file via provided URL."
+msgstr "Veuillez confirmer que vous pouvez télécharger le fichier de sauvegarde via l’URL fournie."
+
+#: includes/ajax.php:1618
+msgid "...or the manifest file does not exist in the backup."
+msgstr "… ou le fichier manifeste n’existe pas dans la sauvegarde."
+
+#: includes/ajax.php:1619
+msgid "Missing manifest means that the backup is probably invalid."
+msgstr "Si le manifeste est manquant, cela signifie que la sauvegarde est probablement invalide."
+
+#: includes/ajax.php:1621
+msgid "Manifest file does not exist"
+msgstr "Le fichier manifeste n’existe pas"
+
+#: includes/dashboard/translations.php:138 includes/zipper/src/zip.php:345
+msgid "Making archive"
+msgstr "Faire une archive"
+
+#: includes/initializer.php:537
+msgid "check that."
+msgstr "vérifier ça."
+
+#: includes/initializer.php:567
+msgid "Automatic backup was not on time because there was no traffic on the site."
+msgstr "La sauvegarde automatique ne c’est pas faite car il n’y avait pas de trafic sur le site."
+
+#: includes/initializer.php:573
+msgid "Couldn't send mail to you, please check server configuration."
+msgstr "Impossible d’envoyer un e-mail, vérifier la configuration du serveur."
+
+#: includes/initializer.php:574
+msgid "Message you missed because of this: "
+msgstr "Message que vous avez manqué à cause de ça :"
+
+#: includes/initializer.php:624
+msgid "Automatic backup failed at time: "
+msgstr "Sauvegarde automatique échouée à :"
+
+#: includes/initializer.php:658
+msgid "Could not send the email notification about that fail"
+msgstr "Impossible d’envoyer la notification par e-mail à propos de cet échec"
+
+#: includes/initializer.php:668
+msgid "Couldn't send notification via email, please check the email and your server settings."
+msgstr "Impossible d’envoyer la notification par e-mail, vérifier l’e-mail et les réglages du serveur."
+
+#: includes/initializer.php:675 includes/initializer.php:680
+msgid "Couldn't send notification via email due to error, please check plugin logs for more details."
+msgstr "Impossible d’envoyer la notification par e-mail en raison d’une erreur, consulter les journaux de l’extension pour plus de détails."
+
+#: includes/initializer.php:710
+msgid "Removing backup due to keep rules: "
+msgstr "Suppression de la sauvegarde en raison de la conservation des règles :"
+
+#: includes/initializer.php:818
+msgid "Automatic backup called at time: "
+msgstr "Sauvegarde automatique lancée à :"
+
+#: includes/initializer.php:829
+msgid "Could not make the backup: Backup already running, please wait till it complete."
+msgstr "Impossible d’effectuer la sauvegarde : la sauvegarde est déjà en cours d’exécution, merci d’attendre qu’elle soit terminée."
+
+#: includes/initializer.php:850
+msgid "Could not make the backup due to internal server error."
+msgstr "Impossible d’effectuer la sauvegarde en raison d’une erreur interne du serveur."
+
+#: includes/initializer.php:1108
+msgid "Backup download is restricted (allowed for admins only)."
+msgstr "Le téléchargement de sauvegarde est limité (autorisé pour les administrateurs uniquement)."
+
+#: includes/initializer.php:1199 includes/initializer.php:1220
+#: includes/initializer.php:1241 includes/initializer.php:1270
+msgid "Due to security reasons access to this file is disabled at this moment."
+msgstr "Pour des raisons de sécurité, l’accès à ce fichier est actuellement désactivé."
+
+#: includes/initializer.php:1350
+msgid "Unknow AJAX Sanitize Type: "
+msgstr "Type de nettoyage AJAX inconnu :"
+
+#: includes/zipper/src/zip.php:78
+msgid "There was an error during backup (packing)..."
+msgstr "Une erreur est survenue lors de la sauvegarde (compactage)…"
+
+#: includes/zipper/src/zip.php:82
+msgid "Issues during backup (packing)..."
+msgstr "Problèmes lors de la sauvegarde (compactage)…"
+
+#: includes/zipper/src/zip.php:88
+msgid "There was an error during restore process (extracting)..."
+msgstr "Une erreur est survenue durant la procédure de restauration (extraction]…"
+
+#: includes/zipper/src/zip.php:92
+msgid "Issues during restore process (extracting)..."
+msgstr "Problèmes pendant la procédure de restauration (extraction)…"
+
+#: includes/zipper/src/zip.php:191 includes/zipper/src/zip.php:787
+msgid "Smart memory calculation..."
+msgstr "Calcul de la mémoire intelligente…"
+
+#: includes/zipper/src/zip.php:200 includes/zipper/src/zip.php:796
+msgid "There is %s MBs of memory to use"
+msgstr "Il y a %s Mo de mémoire utile"
+
+#: includes/zipper/src/zip.php:212 includes/zipper/src/zip.php:811
+msgid "Setting the safe limit to %s MB"
+msgstr "Définir la limite de sécurité à %s Mo"
+
+#: includes/zipper/src/zip.php:155
+msgid "Iterating database..."
+msgstr "Itération de la base de données…"
+
+#: includes/zipper/src/zip.php:168
+msgid "Database backup finished"
+msgstr "Sauvegarde de base de données terminée"
+
+#: includes/zipper/src/zip.php:175
+msgid "Omitting database backup (due to settings)..."
+msgstr "Omettre la sauvegarde de la base de données (en raison des réglages)…"
+
+#: includes/zipper/src/zip.php:583
+msgid "Compressed "
+msgstr "Compressé "
+
+#: includes/zipper/src/zip.php:588
+msgid "Finalizing backup"
+msgstr "Finalisation de la sauvegarde"
+
+#: includes/zipper/src/zip.php:607
+msgid "Adding manifest..."
+msgstr "Ajout du manifeste…"
+
+#: includes/zipper/src/zip.php:641
+msgid "Closing files and archives"
+msgstr "Fermeture des fichiers et des archives"
+
+#: includes/zipper/zipping.php:33
+msgid "Preparing map of files..."
+msgstr "Préparation de la carte des fichiers…"
+
+#: includes/zipper/zipping.php:43
+msgid "Files prepared."
+msgstr "Fichiers préparés."
+
+#: includes/zipper/zipping.php:44
+msgid "Starting compression process..."
+msgstr "Démarrage da la procédure de compression…"
+
+#: includes/zipper/zipping.php:58 includes/zipper/zipping.php:66
+msgid "Reverting backup, removing file..."
+msgstr "Rétablissement de la sauvegarde, suppression du fichier…"
+
+#: includes/zipper/zipping.php:59 includes/zipper/zipping.php:67
+msgid "There was an error during backup..."
+msgstr "Une erreur est survenue lors de la sauvegarde…"
+
+#. Plugin URI of the plugin
+msgid "https://backupbliss.com"
+msgstr "https://backupbliss.com"
+
+#. Description of the plugin
+msgid "Most sophisticated backup & migration plugin for WordPress"
+msgstr "L’extension de sauvegarde et de migration le plus sophistiqué pour WordPress"
+
+#. Author of the plugin
+msgid "Migrate"
+msgstr "Migrer"
+
+#. Author URI of the plugin
+msgid "https://backupbliss.com/"
+msgstr "https://backupbliss.com/"
+
+#: includes/initializer.php:1150
+msgid "There was an error during getting logs, this file is not right log file."
+msgstr "Une erreur est survenue lors de l’récupération des journaux, ce fichier n’est pas le bon fichier journal."
+
+#: includes/initializer.php:635
+msgid "There was an error during automatic backup, please check the logs."
+msgstr "Une erreur est survenue pendant la sauvegarde automatique, vérifier les journaux."
+
+#: includes/initializer.php:536
+msgid "There was an error during automated backup, please"
+msgstr "Une erreur est survenue pendant la sauvegarde automatique, veuillez"
+
+#: includes/ajax.php:711 includes/ajax.php:1222 includes/ajax.php:1534
+#: includes/staging/controller.php:573
+msgid "Backup & Migration version: "
+msgstr "Version de sauvegarde et migration :"
+
+#: includes/ajax.php:712
+msgid "Site which will be backed up: "
+msgstr "Site qui sera sauvegardé :"
+
+#: includes/ajax.php:764 includes/ajax.php:997
+msgid "Path: "
+msgstr "Chemin :"
+
+#: includes/ajax.php:844
+msgid "There is no space for that backup, checked: "
+msgstr "Il n’y a pas de place pour la sauvegarde, vérifié :"
+
+#: includes/ajax.php:861 includes/staging/local.php:508
+msgid "Confirmed, there is more than enough space, checked: "
+msgstr "Confirmé, il y a suffisamment d’espace, vérifié :"
+
+#: includes/ajax.php:875
+msgid "Scanning done - found "
+msgstr "Analyse terminée - Trouvé"
+
+#: includes/ajax.php:1016 includes/ajax.php:1028
+msgid "New backup created and its name is: "
+msgstr "Nouvelle sauvegarde créée avec le nom suivant :"
+
+#: includes/ajax.php:1232
+msgid "Site which will be restored: "
+msgstr "Site qui sera restauré :"
+
+#: includes/ajax.php:1274
+msgid "Error: There is not enough space on the server, checked: "
+msgstr "Erreur : pas assez d’espace sur le serveur, vérifié :"
+
+#: includes/ajax.php:1287
+msgid "Confirmed, there is enough space on the device, checked: "
+msgstr "Confirmé, il y a suffisamment d’espace sur l’appareil, vérifié :"
+
+#: includes/ajax.php:1569
+msgid "Manifest found remote name: "
+msgstr "Nom distant trouvé dans le manifeste :"
+
+#: includes/initializer.php:568
+msgid "Backup was made on: "
+msgstr "Des sauvegardes ont été effectuées :"
+
+#: includes/initializer.php:568
+msgid ", but should be on: "
+msgstr ", mais devrait être sur :"
+
+#: includes/initializer.php:663
+msgid "Sent email notification to: "
+msgstr "Envoyer une notification par e-mail à :"
+
+#: includes/initializer.php:843
+msgid "Automatic backup successed: "
+msgstr "Sauvegarde automatique réussie :"
+
+#: includes/initializer.php:1200 includes/initializer.php:1221
+#: includes/initializer.php:1242 includes/initializer.php:1271
+msgid "Human readable: file expired."
+msgstr "Lisible par l’homme : le fichier a expiré."
+
+#: includes/zipper/src/zip.php:556 includes/zipper/src/zip.php:582
+msgid "Milestone: "
+msgstr "Étape :"
+
+#: includes/zipper/src/zip.php:586
+msgid "Archiving of "
+msgstr "Archivage de"
+
+#: includes/zipper/src/zip.php:586
+msgid " files took: "
+msgstr "fichiers ont pris :"
+
+#: includes/zipper/zipping.php:23
+msgid "Creating backup "
+msgstr "Création de la sauvegarde"
