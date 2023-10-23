@@ -138,23 +138,94 @@ p {
     grid-row-gap: 40px;
 }
 
+.pamplemousse {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Pamplemousse.png');
+    width: 393px;
+    height: 262px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.fraise {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fraise.png');
+    width: 393px;
+    height: 262px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.framboise {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Framboise.png');
+    width: 393px;
+    height: 262px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.citron {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Citron.png');
+    width: 393px;
+    height: 262px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
 /* Formatage du formulaire de contact */
 .champ-simple {
     width: 383px;
     height: 71px;
     border: none;
+    border-radius: 5px;
 }
 
 .champ-multi {
     width: 383px;
     height: 237px;
     border: none;
+    border-radius: 5px;
 }
 
 textarea {
     resize: none;
 }
 
-.bouton-align {
-    margin-block: auto;
-}
+input.wpcf7-form-control.wpcf7-submit {
+    display: block;
+    margin: 0 auto;
+ }
