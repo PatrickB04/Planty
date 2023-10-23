@@ -229,3 +229,70 @@ input.wpcf7-form-control.wpcf7-submit {
     display: block;
     margin: 0 auto;
  }
+
+ /* Formatage du formulaire de commande */
+ .fond-commande{
+    background-color: #3B8E46;
+ }
+
+ .wp-block-separator{
+    background-color: #fff;
+    border: 0;
+    height: 2px;
+    width: 860px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+ }
+
+ .container {  display: grid;
+    grid-template-columns: 49.5% 2px 49.5%;
+    grid-template-rows: 1fr 30px 70px 30px 70px 30px 70px 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Titre-Vos-informations Trait Titre-Livraison"
+      "Titre-Nom Trait Titre-Adresse-livraison"
+      "Champ-Nom Trait Champ-Adresse-livraison"
+      "Titre-Prénom Trait Titre-CP"
+      "Champ-Prénom Trait Champ-CP"
+      "Titre-Email Trait Titre-Ville"
+      "Champ-Email Trait Champ-Ville"
+      "commander commander commander";
+    width: 1000px;
+    height: 900px;
+  }
+  
+  .commander { grid-area: commander; }
+  
+  .Titre-Vos-informations { grid-area: Titre-Vos-informations; }
+  
+  .Titre-Livraison { grid-area: Titre-Livraison; }
+  
+  .Titre-Nom { grid-area: Titre-Nom; }
+  
+  .Champ-Nom { grid-area: Champ-Nom; }
+  
+  .Titre-Prénom { grid-area: Titre-Prénom; }
+  
+  .Champ-Prénom { grid-area: Champ-Prénom; }
+  
+  .Titre-Email { grid-area: Titre-Email; }
+  
+  .Champ-Email { grid-area: Champ-Email; }
+  
+  .Trait { grid-area: Trait; 
+background-color: #fff;}
+  
+  .Titre-CP { grid-area: Titre-CP; }
+  
+  .Champ-CP { grid-area: Champ-CP; }
+  
+  .Titre-Ville { grid-area: Titre-Ville; }
+  
+  .Champ-Ville { grid-area: Champ-Ville; }
+  
+  .Titre-Adresse-livraison { grid-area: Titre-Adresse-livraison; }
+  
+  .Champ-Adresse-livraison { grid-area: Champ-Adresse-livraison; }
+  
