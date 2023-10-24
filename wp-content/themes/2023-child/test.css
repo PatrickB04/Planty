@@ -1,0 +1,156 @@
+.container {
+    display: grid;
+    grid-template-columns: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+    grid-template-rows: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+    gap: 10px 22px;
+    width: 100%;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande"
+        "image-fraise image-fraise image-fraise image-pamplemousse image-pamplemousse image-pamplemousse image-framboise image-framboise image-framboise image-citron image-citron image-citron"
+        "champ-fraise bouton OK champ-pamplemousse bouton OK champ-framboise bouton OK champ-citron bouton OK"
+        "séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur"
+        "Titre-Vos-informations Titre-Vos-informations Titre-Vos-informations Titre-Vos-informations Titre-Vos-informations separateur2 separateur2 Titre-Livraison Titre-Livraison Titre-Livraison Titre-Livraison Titre-Livraison"
+        "Titre-nom Titre-nom Titre-nom Titre-nom Titre-nom separateur2 separateur2 titre-adresse titre-adresse titre-adresse titre-adresse titre-adresse"
+        "Champ-nom Champ-nom Champ-nom Champ-nom Champ-nom separateur2 separateur2 champ-adresse champ-adresse champ-adresse champ-adresse champ-adresse"
+        "titre-prénom titre-prénom titre-prénom titre-prénom titre-prénom separateur2 separateur2 titre-CP titre-CP titre-CP titre-CP titre-CP"
+        "champ-prénom champ-prénom champ-prénom champ-prénom champ-prénom separateur2 separateur2 champ-CP champ-CP champ-CP champ-CP champ-CP"
+        "titre-mail titre-mail titre-mail titre-mail titre-mail separateur2 separateur2 titre-ville titre-ville titre-ville titre-ville titre-ville"
+        "champ-mail champ-mail champ-mail champ-mail champ-mail separateur2 separateur2 champ-ville champ-ville champ-ville champ-ville champ-ville"
+        "commander commander commander commander commander commander commander commander commander commander commander commander";
+}
+
+
+.titre-votre-commande {
+    grid-area: titre-votre-commande;
+}
+
+
+.image-fraise {
+    grid-area: image-fraise;
+}
+
+.image-pamplemousse {
+    grid-area: image-pamplemousse;
+}
+
+.image-framboise {
+    grid-area: image-framboise;
+}
+
+.image-citron {
+    grid-area: image-citron;
+}
+
+.champ-fraise {
+    grid-area: champ-fraise;
+}
+
+.champ-pamplemousse {
+    grid-area: champ-pamplemousse;
+}
+
+.champ-framboise {
+    grid-area: champ-framboise;
+}
+
+.champ-citron {
+    grid-area: champ-citron;
+}
+
+
+.bouton {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "plus"
+        "moins";
+    grid-area: bouton;
+}
+
+.moins {
+    grid-area: moins;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.OK {
+    grid-area: OK;
+}
+
+
+
+.séparateur {
+    grid-area: séparateur;
+}
+
+
+
+.Titre-Livraison {
+    grid-area: Titre-Livraison;
+}
+
+.Titre-Vos-informations {
+    grid-area: Titre-Vos-informations;
+}
+
+.Titre-nom {
+    grid-area: Titre-nom;
+}
+
+.Champ-nom {
+    grid-area: Champ-nom;
+}
+
+.titre-prénom {
+    grid-area: titre-prénom;
+}
+
+.champ-prénom {
+    grid-area: champ-prénom;
+}
+
+.titre-mail {
+    grid-area: titre-mail;
+}
+
+.champ-mail {
+    grid-area: champ-mail;
+}
+
+.titre-adresse {
+    grid-area: titre-adresse;
+}
+
+.champ-adresse {
+    grid-area: champ-adresse;
+}
+
+.titre-CP {
+    grid-area: titre-CP;
+}
+
+.champ-CP {
+    grid-area: champ-CP;
+}
+
+.titre-ville {
+    grid-area: titre-ville;
+}
+
+.champ-ville {
+    grid-area: champ-ville;
+}
+
+.separateur2 {
+    grid-area: separateur2;
+}
+
+.commander {
+    grid-area: commander;
+}
