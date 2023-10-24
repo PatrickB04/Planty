@@ -92,11 +92,19 @@ p {
     line-height: 50px;
     border: none;
 }
+.wp-block-button__link {
+    background-color: #E0B9B4;
+}
+.bouton:hover {
+    background-color: #C02E44;
+}
+.wp-block-button__link:hover {
+    background-color: #C02E44;
+}
 
 /* Fonds particuliers */
 .fond-arrondi-rebord {
     background-color: #ECE2DA;
-    ;
     border-radius: 0% 0% 50% 50% / 93% 93% 7% 7%;
     border-bottom: #E3D9D0 solid 5px;
     padding-top: 105px;
@@ -115,17 +123,17 @@ p {
     flex-direction: column;
     align-items: center;
     border-radius: 0% 0% 50% 50% / 80% 80% 20% 20%;
-    background: #ECE2DA url("http://localhost:8888/Test%20site%20wordpress/wp-content/uploads/2023/10/Fleur.png") no-repeat scroll 15% 35%;
+    background: #ECE2DA url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fleur.png') no-repeat scroll 15% 35%;
     background-size: 150px 150px;
 }
 
 .fond-equipe {
-    background: url("http://localhost:8888/Test%20site%20wordpress/wp-content/uploads/2023/10/Branche.png") no-repeat scroll 95% 105%;
+    background: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Branche.png') no-repeat scroll 95% 105%;
     background-size: 180px 180px;
 }
 
 .fond-contact {
-    background: #ECE2DA url("http://localhost:8888/Test%20site%20wordpress/wp-content/uploads/2023/10/Houx.png") no-repeat scroll 35% 70%;
+    background: #ECE2DA url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Houx.png') no-repeat scroll 35% 70%;
     ;
 }
 
@@ -238,12 +246,80 @@ input.wpcf7-form-control.wpcf7-submit {
  .wp-block-separator{
     background-color: #fff;
     border: 0;
-    height: 2px;
+    height: 1px;
     width: 860px;
     align-items: center;
     margin: 0;
     padding: 0;
  }
+
+ .fraise2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fraise.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.framboise2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Framboise.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.citron2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Citron.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.pamplemousse2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Pamplemousse.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
 
  .container {  display: grid;
     grid-template-columns: 49.5% 2px 49.5%;
