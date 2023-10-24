@@ -93,10 +93,6 @@ p {
     border: none;
 }
 
-.bouton:hover {
-    background-color: #C02E44
-}
-
 /* Fonds particuliers */
 .fond-arrondi-rebord {
     background-color: #ECE2DA;
