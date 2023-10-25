@@ -1,156 +1,289 @@
 .container {
-    display: grid;
-    grid-template-columns: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
-    grid-template-rows: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
-    gap: 10px 22px;
-    width: 100%;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande titre-votre-commande"
-        "image-fraise image-fraise image-fraise image-pamplemousse image-pamplemousse image-pamplemousse image-framboise image-framboise image-framboise image-citron image-citron image-citron"
-        "champ-fraise bouton OK champ-pamplemousse bouton OK champ-framboise bouton OK champ-citron bouton OK"
-        "séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur séparateur"
-        "Titre-Vos-informations Titre-Vos-informations Titre-Vos-informations Titre-Vos-informations Titre-Vos-informations separateur2 separateur2 Titre-Livraison Titre-Livraison Titre-Livraison Titre-Livraison Titre-Livraison"
-        "Titre-nom Titre-nom Titre-nom Titre-nom Titre-nom separateur2 separateur2 titre-adresse titre-adresse titre-adresse titre-adresse titre-adresse"
-        "Champ-nom Champ-nom Champ-nom Champ-nom Champ-nom separateur2 separateur2 champ-adresse champ-adresse champ-adresse champ-adresse champ-adresse"
-        "titre-prénom titre-prénom titre-prénom titre-prénom titre-prénom separateur2 separateur2 titre-CP titre-CP titre-CP titre-CP titre-CP"
-        "champ-prénom champ-prénom champ-prénom champ-prénom champ-prénom separateur2 separateur2 champ-CP champ-CP champ-CP champ-CP champ-CP"
-        "titre-mail titre-mail titre-mail titre-mail titre-mail separateur2 separateur2 titre-ville titre-ville titre-ville titre-ville titre-ville"
-        "champ-mail champ-mail champ-mail champ-mail champ-mail separateur2 separateur2 champ-ville champ-ville champ-ville champ-ville champ-ville"
-        "commander commander commander commander commander commander commander commander commander commander commander commander";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(250, 170, 65);
 }
 
-
-.titre-votre-commande {
-    grid-area: titre-votre-commande;
+.box-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 860px;
+    height: auto;
+    margin: auto;
+    background-color: antiquewhite;
 }
 
-
-.image-fraise {
-    grid-area: image-fraise;
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 192px;
 }
 
-.image-pamplemousse {
-    grid-area: image-pamplemousse;
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
-.image-framboise {
-    grid-area: image-framboise;
+.ligne {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
 }
 
-.image-citron {
-    grid-area: image-citron;
-}
-
-.champ-fraise {
-    grid-area: champ-fraise;
-}
-
-.champ-pamplemousse {
-    grid-area: champ-pamplemousse;
-}
-
-.champ-framboise {
-    grid-area: champ-framboise;
-}
-
-.champ-citron {
-    grid-area: champ-citron;
-}
-
-
-.bouton {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "plus"
-        "moins";
-    grid-area: bouton;
-}
-
-.moins {
-    grid-area: moins;
+.qte {
+    width: 51px;
+    height: 56px;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff;
+    font-size: 20px;
+    text-align: center;
 }
 
 .plus {
-    grid-area: plus;
+    width: 31px;
+    height: 28px;
+    border-radius: 0 5px 0 0;
+    background-color: #e8b2b2;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
 }
 
-.OK {
-    grid-area: OK;
+.moins {
+    width: 31px;
+    height: 28px;
+    border-radius: 0 0 5px 0;
+    background-color: #e8b2b2;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    border-top: #FFF solid 1px;
 }
 
-
-
-.séparateur {
-    grid-area: séparateur;
+.valid {
+    width: 100px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #e8b2b2;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
 }
 
+.wp-block-separator {
+    background-color: #fff;
+    border: 0;
+    height: 1px;
+    width: 860px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 
+.fraise2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fraise.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
 
-.Titre-Livraison {
-    grid-area: Titre-Livraison;
+.framboise2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Framboise.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.citron2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Citron.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.pamplemousse2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Pamplemousse.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+.Trait {
+    grid-area: Trait;
+    background-color: #fff;
+    height: 95%;
+    margin: 35px 0 0 0;
+}
+.separateur {
+    background-color: #de0a0a;
+    border: 0;
+    height: 11px;
+    width: 860px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 383px 1px 383px;
+    grid-template-rows: 60px 30px 80px 30px 80px 30px 80px 55px;
+    gap: 10px 40px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Titre-Vos-informations Trait Titre-Livraison"
+        "Titre-Nom Trait Titre-Adresse-livraison"
+        "Champ-Nom Trait Champ-Adresse-livraison"
+        "Titre-Prénom Trait Titre-CP"
+        "Champ-Prénom Trait Champ-CP"
+        "Titre-Email Trait Titre-Ville"
+        "Champ-Email Trait Champ-Ville"
+        "commander commander commander";
+    width: 860px;
+    height: 700px;
+}
+
+.titre{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 20px;
 }
 
 .Titre-Vos-informations {
     grid-area: Titre-Vos-informations;
 }
 
-.Titre-nom {
-    grid-area: Titre-nom;
+.Titre-Livraison {
+    grid-area: Titre-Livraison;
 }
 
-.Champ-nom {
-    grid-area: Champ-nom;
+.Titre-Nom {
+    grid-area: Titre-Nom;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
 }
 
-.titre-prénom {
-    grid-area: titre-prénom;
+.Champ-Nom {
+    grid-area: Champ-Nom;
 }
 
-.champ-prénom {
-    grid-area: champ-prénom;
+.Titre-Prénom {
+    grid-area: Titre-Prénom;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
 }
 
-.titre-mail {
-    grid-area: titre-mail;
+.Champ-Prénom {
+    grid-area: Champ-Prénom;
 }
 
-.champ-mail {
-    grid-area: champ-mail;
+.Titre-Email {
+    grid-area: Titre-Email;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
 }
 
-.titre-adresse {
-    grid-area: titre-adresse;
+.Champ-Email {
+    grid-area: Champ-Email;
 }
 
-.champ-adresse {
-    grid-area: champ-adresse;
+.Trait {
+    grid-area: Trait;
+    background-color: #fff;
+    height: 95%;
+    margin: 35px 0 0 0;
 }
 
-.titre-CP {
-    grid-area: titre-CP;
+.Titre-CP {
+    grid-area: Titre-CP;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
 }
 
-.champ-CP {
-    grid-area: champ-CP;
+.Champ-CP {
+    grid-area: Champ-CP;
 }
 
-.titre-ville {
-    grid-area: titre-ville;
+.Titre-Ville {
+    grid-area: Titre-Ville;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
 }
 
-.champ-ville {
-    grid-area: champ-ville;
+.Champ-Ville {
+    grid-area: Champ-Ville;
 }
 
-.separateur2 {
-    grid-area: separateur2;
+.Titre-Adresse-livraison {
+    grid-area: Titre-Adresse-livraison;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.Champ-Adresse-livraison {
+    grid-area: Champ-Adresse-livraison;
 }
 
 .commander {
     grid-area: commander;
+    margin-top: 45px;
+    margin-bottom: 0px;
 }
+
+
