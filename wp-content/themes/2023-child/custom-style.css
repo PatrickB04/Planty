@@ -105,6 +105,35 @@ p {
     background-color: #C02E44;
 }
 
+/* Formatage particulier des menus de navigation */
+.menu1 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wp-block-navigation ul li:nth-child(3n) {
+    padding: 0 40px 0 40px;
+    height: 80px;
+    background: #DC9F96;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wp-block-navigation ul li:nth-child(3n):hover {
+    background-color: #C02E44;
+}
+
+.wp-block-navigation ul li a:hover {
+    text-decoration: none;
+}
+
+
 /* Fonds particuliers */
 .fond-arrondi-rebord {
     background-color: #ECE2DA;
@@ -271,7 +300,6 @@ input.wpcf7-form-control.wpcf7-submit {
     line-height: normal;
     justify-content: center;
     align-content: center;
-    margin-bottom: 15px;
 }
 
 .framboise2 {
@@ -289,8 +317,6 @@ input.wpcf7-form-control.wpcf7-submit {
     line-height: normal;
     justify-content: center;
     align-content: center;
-    margin-bottom: 15px;
-
 }
 
 .citron2 {
@@ -308,8 +334,6 @@ input.wpcf7-form-control.wpcf7-submit {
     line-height: normal;
     justify-content: center;
     align-content: center;
-    margin-bottom: 15px;
-
 }
 
 .pamplemousse2 {
@@ -327,7 +351,6 @@ input.wpcf7-form-control.wpcf7-submit {
     line-height: normal;
     justify-content: center;
     align-content: center;
-    margin-bottom: 15px;
 }
 
 .container1 {
@@ -345,7 +368,7 @@ input.wpcf7-form-control.wpcf7-submit {
     margin: 0;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     width: 192px;
@@ -370,6 +393,7 @@ input.wpcf7-form-control.wpcf7-submit {
     border-radius: 5px 0 0 5px;
     background-color: #fff;
 }
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -377,8 +401,10 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .wpcf7-form-control-wrap input[type=number] {
-    width: 40px !important;
-    height: 20px!important;
+    width: 51px;
+    height: 56px;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     border: none;
@@ -386,6 +412,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 20px;
     line-height: 1rem;
 }
+
 .plus {
     width: 31px;
     height: 28px;
@@ -423,10 +450,23 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 20px;
     color: #fff;
     text-align: center;
-    line-height: 1.9rem;
+    line-height: 3.4rem;
 }
 
+.valid p {
+    margin: 0;
+    padding: 0;
+}
 
+.separateur {
+    background-color: #fff;
+    border: 0;
+    height: 1px;
+    width: 860px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 
 .container2 {
     display: grid;
@@ -447,7 +487,7 @@ input[type=number]::-webkit-outer-spin-button {
     height: 700px;
 }
 
-.titre{
+.titre {
     font-size: 30px;
     font-weight: 700;
     color: #FFF;
