@@ -114,8 +114,19 @@ p {
     line-height: normal;
 }
 
-.wp-block-navigation ul li:nth-child(3n) {
+/*.wp-block-navigation ul li:nth-last-of-type(1n) {
     padding: 0 40px 0 40px;
+    height: 80px;
+    background: #DC9F96;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}*/
+
+.menu-commander {
+    padding: 0 40px 0 40px !important;
     height: 80px;
     background: #DC9F96;
     color: #FFF;
@@ -125,7 +136,7 @@ p {
     line-height: normal;
 }
 
-.wp-block-navigation ul li:nth-child(3n):hover {
+.menu-commander:hover {
     background-color: #C02E44;
 }
 

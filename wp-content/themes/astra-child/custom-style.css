@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+/* Font utilisée */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Syne;
+}
+
+/* Couleurs utilisées */
+.vert {
+    color: #3B8E46;
+}
+
+.abricot {
+    color: #DC9F96;
+}
+
+.papaye {
+    color: #ECE2DA;
+}
+
+.pierre {
+    color: #E3D9D0;
+}
+
+.corail {
+    color: #D2776A;
+}
+
+.abricot-clair {
+    color: #E0B9B4;
+}
+
+.blanc {
+    color: #fff;
+}
+
+/* Formatage taille texte */
+h1 {
+    font-size: 38px;
+    font-style: normal;
+    line-height: 2em;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: normal;
+}
+
+p {
+    font-size: 20px;
+    font-style: normal;
+}
+
+/* Formatage particulier texte */
+.pmoins {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.moyen {
+    font-weight: 700;
+}
+
+.gras {
+    font-weight: 800;
+}
+
+.majuscule {
+    text-transform: uppercase;
+}
+
+.bouton {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 50px;
+    border: none;
+}
+
+.wp-block-button__link {
+    background-color: #E0B9B4;
+}
+
+.bouton:hover {
+    background-color: #C02E44;
+}
+
+.wp-block-button__link:hover {
+    background-color: #C02E44;
+}
+
+/* Formatage particulier des menus de navigation */
+.menu1 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wp-block-navigation ul li:nth-child(3n) {
+    padding: 0 40px 0 40px;
+    height: 80px;
+    background: #DC9F96;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wp-block-navigation ul li:nth-child(3n):hover {
+    background-color: #C02E44;
+}
+
+.wp-block-navigation ul li a:hover {
+    text-decoration: none;
+}
+
+
+/* Fonds particuliers */
+.fond-arrondi-rebord {
+    background-color: #ECE2DA;
+    border-radius: 0% 0% 50% 50% / 93% 93% 7% 7%;
+    border-bottom: #E3D9D0 solid 5px;
+    padding-top: 105px;
+}
+
+.fond-arrondi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ECE2DA;
+    border-radius: 0% 0% 50% 50% / 96% 96% 4% 4%;
+}
+
+.fond-arrondi-rencontre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0% 0% 50% 50% / 80% 80% 20% 20%;
+    background: #ECE2DA url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fleur.png') no-repeat scroll 15% 35%;
+    background-size: 150px 150px;
+}
+
+.fond-equipe {
+    background: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Branche.png') no-repeat scroll 95% 105%;
+    background-size: 180px 180px;
+}
+
+.fond-contact {
+    background: #ECE2DA url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Houx.png') no-repeat scroll 35% 70%;
+    ;
+}
+
+/* Présentation des photos Accueil */
+.ma-grille {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+}
+
+.pamplemousse {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Pamplemousse.png');
+    width: 393px;
+    height: 262px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.fraise {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fraise.png');
+    width: 393px;
+    height: 262px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.framboise {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Framboise.png');
+    width: 393px;
+    height: 262px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.citron {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Citron.png');
+    width: 393px;
+    height: 262px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Formatage du formulaire de contact */
+.champ-simple {
+    width: 383px;
+    height: 71px;
+    border: none;
+    border-radius: 5px;
+}
+
+.champ-multi {
+    width: 383px;
+    height: 237px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Formatage du formulaire de commande */
+.fond-commande {
+    background-color: #3B8E46;
+}
+
+.wp-block-separator {
+    background-color: #fff;
+    border: 0;
+    height: 1px;
+    width: 860px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.fraise2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fraise.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.framboise2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Framboise.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.citron2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Citron.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.pamplemousse2 {
+    display: grid;
+    background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Pamplemousse.png');
+    width: 192px;
+    height: 128px;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 860px;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 192px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.qte {
+    width: 51px;
+    height: 56px;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.wpcf7-form-control-wrap input[type=number] {
+    width: 51px;
+    height: 56px;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1rem;
+}
+
+.plus {
+    width: 31px;
+    height: 28px;
+    border-radius: 0 5px 0 0;
+    background-color: #e8b2b2;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.8rem;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.moins {
+    width: 31px;
+    height: 27px;
+    border-radius: 0 0 5px 0;
+    background-color: #e8b2b2;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8rem;
+    border-top: #FFF solid 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.valid {
+    width: 100px;
+    height: 56px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #e8b2b2;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 3.4rem;
+}
+
+.valid p {
+    margin: 0;
+    padding: 0;
+}
+
+.separateur {
+    background-color: #fff;
+    border: 0;
+    height: 1px;
+    width: 860px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 383px 1px 383px;
+    grid-template-rows: 60px 30px 80px 30px 80px 30px 80px 55px;
+    gap: 10px 40px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Titre-Vos-informations Trait Titre-Livraison"
+        "Titre-Nom Trait Titre-Adresse-livraison"
+        "Champ-Nom Trait Champ-Adresse-livraison"
+        "Titre-Prénom Trait Titre-CP"
+        "Champ-Prénom Trait Champ-CP"
+        "Titre-Email Trait Titre-Ville"
+        "Champ-Email Trait Champ-Ville"
+        "commander commander commander";
+    width: 860px;
+    height: 700px;
+}
+
+.titre {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.Titre-Vos-informations {
+    grid-area: Titre-Vos-informations;
+}
+
+.Titre-Livraison {
+    grid-area: Titre-Livraison;
+}
+
+.Titre-Nom {
+    grid-area: Titre-Nom;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Champ-Nom {
+    grid-area: Champ-Nom;
+}
+
+.Titre-Prénom {
+    grid-area: Titre-Prénom;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.Champ-Prénom {
+    grid-area: Champ-Prénom;
+}
+
+.Titre-Email {
+    grid-area: Titre-Email;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.Champ-Email {
+    grid-area: Champ-Email;
+}
+
+.Trait {
+    grid-area: Trait;
+    background-color: #fff;
+    height: 95%;
+    margin: 35px 0 0 0;
+}
+
+.Titre-CP {
+    grid-area: Titre-CP;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.Champ-CP {
+    grid-area: Champ-CP;
+}
+
+.Titre-Ville {
+    grid-area: Titre-Ville;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.Champ-Ville {
+    grid-area: Champ-Ville;
+}
+
+.Titre-Adresse-livraison {
+    grid-area: Titre-Adresse-livraison;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.Champ-Adresse-livraison {
+    grid-area: Champ-Adresse-livraison;
+}
+
+.commander {
+    grid-area: commander;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
