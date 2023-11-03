@@ -551,6 +551,7 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: #fff;
     height: 95%;
     margin: 35px 0 0 0;
+    padding: 0;
 }
 
 .Titre-CP {
@@ -591,3 +592,290 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 45px;
     margin-bottom: 0px;
 }
+
+
+/****** Code Responsive **********/
+
+/* #region Tablette */
+
+/****** Media queries ***********/
+/* Tablettes, 1024px et moins */
+@media (max-width: 1024px) {
+/* #region Page "accueil" */
+
+
+/* #endregion Page "accueil" */
+
+/* #region Page "Nous Rencontrer" */
+.wp-container-9.wp-container-9 {
+    flex-wrap: nowrap;
+    gap: 80px;
+}
+
+.fond-equipe {
+    background: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Branche.png') no-repeat scroll 100% 105%;
+    background-size: 110px 110px;
+}
+
+/* #endregion Page "Nous Rencontrer" */
+
+/* #region Page "Commander" */
+.container2 {
+    display: grid;
+    grid-template-columns: 360px 1px 360px;
+    grid-template-rows: 50px 25px 70px 25px 70px 25px 70px 50px;
+    gap: 10px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Titre-Vos-informations Trait Titre-Livraison"
+        "Titre-Nom Trait Titre-Adresse-livraison"
+        "Champ-Nom Trait Champ-Adresse-livraison"
+        "Titre-Prénom Trait Titre-CP"
+        "Champ-Prénom Trait Champ-CP"
+        "Titre-Email Trait Titre-Ville"
+        "Champ-Email Trait Champ-Ville"
+        "commander commander commander";
+    width: 800px;
+    height: 600px;
+}
+
+.champ-simple {
+    width: 360px;
+    height: 71px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Trait {
+    grid-area: Trait;
+    background-color: #fff;
+    height: 99%;
+    margin: 29px 0 0 0;
+    padding: 0;
+}
+
+.box-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0;
+}
+
+/* #endregion Page "Commander" */
+
+
+}
+/* #endregion Tablette */
+
+/* #region Mobile */
+/* Mobiles 768px et moins */
+@media (max-width: 767.98px) {
+h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+}
+
+p {
+        font-size: medium;
+}
+
+.normal {
+        font-weight: 400;
+        line-height: 1.2rem !important;
+        text-align: center;
+        padding: 0 10px 0 10px;
+}
+
+.wp-block-site-logo {
+        margin-top: 10px !important;
+}
+
+/* #region Page "accueil" */
+.fond-arrondi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ECE2DA;
+        border-radius: 0% 0% 50% 50% / 98% 98% 2% 2%;
+    }
+
+.ma-grille {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+.pamplemousse {
+        background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Pamplemousse.png');
+        width: 375px;
+        height: 262px;
+        color: #FFF;
+        text-align: center;
+        font-size: 43px;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: normal;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .fraise {
+        background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fraise.png');
+        width: 375px;
+        height: 262px;
+        color: #FFF;
+        text-align: center;
+        font-size: 43px;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: normal;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .framboise {
+        background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Framboise.png');
+        width: 375px;
+        height: 262px;
+        color: #FFF;
+        text-align: center;
+        font-size: 43px;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: normal;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .citron {
+        background-image: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Citron.png');
+        width: 375px;
+        height: 262px;
+        color: #FFF;
+        text-align: center;
+        font-size: 43px;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: normal;
+        justify-content: center;
+        align-content: center;
+    }
+
+.wp-container-20.wp-container-20 {
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0 !important;
+        padding-top: 30px !important;
+    }
+
+.wp-container-11.wp-container-11,   .wp-container-14.wp-container-14, .wp-container-17.wp-container-17 {
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+/* #endregion Page "accueil" */
+
+/* #region Page "Nous rencontrer" */
+.wp-container-5.wp-container-5 {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px !important;
+}
+
+.has-text-align-center {
+    text-align: center;
+    margin: 0 20px 0 20px !important;
+}
+
+.is-layout-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.wp-container-9.wp-container-9 {
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.fond-arrondi-rencontre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    border-radius: 0% 0% 20% 20% / 90% 90% 10% 10%;
+    background: #ECE2DA url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Fleur.png') no-repeat scroll 2% 5%;
+    background-size: 75px 75px;
+}
+
+.fond-equipe {
+    background: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Branche.png') no-repeat scroll 95% 105%;
+    background-size: 130px 130px;
+}
+
+
+    .champ-simple {
+        width: 360px;
+        height: 71px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .champ-multi {
+        width: 360px;
+        height: 237px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    textarea {
+        resize: none;
+    }
+    
+.fond-contact {
+    background: #ECE2DA url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Houx.png') no-repeat scroll 10% 90%;
+    ;
+}
+/* #endregion Page "Nous rencontrer" */
+
+/* #region Page "Commander" */
+.box-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(15, auto);
+    grid-auto-flow: row;
+    width: 370px;
+    height: auto;
+    grid-template-areas:
+        "Titre-Vos-informations"
+        "Titre-Nom"
+        "Champ-Nom"
+        "Titre-Prénom"
+        "Champ-Prénom"
+        "Titre-Email"
+        "Champ-Email"
+        "Titre-Livraison"
+        "Titre-Adresse-livraison"
+        "Champ-Adresse-livraison"
+        "Titre-CP"
+        "Champ-CP"
+        "Titre-Ville"
+        "Champ-Ville"
+        "commander";
+}
+
+/* #endregion Page "Commander" */
+}
+
+/* #endregion Mobile */
