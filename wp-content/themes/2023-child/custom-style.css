@@ -602,6 +602,25 @@ input[type=number]::-webkit-outer-spin-button {
 /* Tablettes, 1024px et moins */
 @media (max-width: 1024px) {
 /* #region Page "accueil" */
+.wp-container-20.wp-container-20 {
+    gap: 80px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+}
+.wp-container-19.wp-container-19 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 200px !important;
+        padding-right: 200px !important;
+    }
+
+.wp-container-11.wp-container-11 .wp-container-14.wp-container-14 .wp-container-18.wp-container-18 {
+        flex-wrap: nowrap;
+        gap: 20px;
+        justify-content: flex-start;
+    }
 
 
 /* #endregion Page "accueil" */
@@ -616,6 +635,12 @@ input[type=number]::-webkit-outer-spin-button {
     background: url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Branche.png') no-repeat scroll 100% 105%;
     background-size: 110px 110px;
 }
+
+.fond-contact {
+    background: #ECE2DA url('http://localhost:8888/Planty/wp-content/uploads/2023/10/Houx.png') no-repeat scroll 20% 80%;
+    ;
+}
+
 
 /* #endregion Page "Nous Rencontrer" */
 
@@ -690,6 +715,15 @@ p {
 
 .wp-block-site-logo {
         margin-top: 10px !important;
+}
+
+.wp-block-navigation__responsive-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    gap: 10px;
 }
 
 /* #region Page "accueil" */
@@ -771,6 +805,13 @@ p {
         padding-top: 30px !important;
     }
 
+.wp-container-19.wp-container-19 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+
 .wp-container-11.wp-container-11,   .wp-container-14.wp-container-14, .wp-container-17.wp-container-17 {
         flex-wrap: nowrap;
         gap: 20px;
@@ -848,6 +889,7 @@ p {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    width: 370px !important;
 }
 
 .container2 {
@@ -856,6 +898,7 @@ p {
     grid-template-rows: repeat(15, auto);
     grid-auto-flow: row;
     width: 370px;
+    gap: 0 !important;
     height: auto;
     grid-template-areas:
         "Titre-Vos-informations"
